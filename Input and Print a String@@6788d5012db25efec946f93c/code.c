@@ -2,7 +2,7 @@
 
 char* welcome() {
     char str[50];
-    scanf("%s",str);
+    scanf("%99s",str);
     return str;
 }
 
