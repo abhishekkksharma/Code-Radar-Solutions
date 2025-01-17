@@ -7,7 +7,6 @@ char* welcome() {
 }
 
 int main() {
-    char str1[100];
-    printf("You entered: %s\n", welcome(&str1));
+    printf("You entered: %s\n", welcome());
     return 0;
 }
