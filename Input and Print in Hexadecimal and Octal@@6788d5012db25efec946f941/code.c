@@ -6,6 +6,7 @@ int welcome(int num) {
 }
 
 int main() {
-    printf("Hexadecimal: %x\nOctal: %o", welcome());
+    int a;
+    printf("Hexadecimal: %x\nOctal: %o", welcome(a));
     return 0;
 }
