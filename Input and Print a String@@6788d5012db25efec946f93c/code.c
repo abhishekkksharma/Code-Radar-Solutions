@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 char* welcome() {
-    char str[50];
+    char str[100];
     scanf("%99s",str);
     return str;
 }
