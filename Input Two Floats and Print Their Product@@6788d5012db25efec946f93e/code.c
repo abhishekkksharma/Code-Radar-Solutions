@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int welcome(float a, float b) {
-    return a*b*1.00;
+    return a * b;
 }
 
 int main() {
