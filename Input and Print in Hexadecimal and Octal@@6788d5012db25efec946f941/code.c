@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-int welcome(int num) {
-    scanf("%d",&num);
-    return num;
+void welcome(int num) {
+    printf("Hexadecimal: %x\nOctadecimal: %o\n",num);
 }
 
 int main() {
     int a;
-    printf("Hexadecimal: %x\nOctal: %o", welcome(a));
+    scanf("%d",&a);
+    welcome(a);
     return 0;
 }
