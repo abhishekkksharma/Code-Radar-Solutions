@@ -2,7 +2,7 @@
 
 
 int main() {
-    int n;
+    int n,i;
     scanf("%d",&n);
     while(i<n){
         printf("%s",'*')
