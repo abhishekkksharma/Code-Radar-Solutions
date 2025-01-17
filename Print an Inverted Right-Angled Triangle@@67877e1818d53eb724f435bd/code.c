@@ -2,9 +2,9 @@
 
 
 int main() {
-    int n,i;
+    int n;
     scanf("%d",&n);
-    while(i<n){
+    for(i=0;i<=n;i++){
         printf("%s",'*')
     }
     return 0;
