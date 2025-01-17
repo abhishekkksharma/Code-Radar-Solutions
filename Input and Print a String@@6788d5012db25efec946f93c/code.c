@@ -2,11 +2,11 @@
 
 char* welcome() {
     char str[100];
-    scanf("%c",str);
+    scanf("%s",str);
     return str;
 }
 
 int main() {
-    printf("You entered: %c\n", welcome());
+    printf("You entered: %s\n", welcome());
     return 0;
 }
