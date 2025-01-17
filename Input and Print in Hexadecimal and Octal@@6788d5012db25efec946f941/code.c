@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int welcome(int num) {
-    scanf("%d",num);
+    scanf("%d",&num);
     return num;
 }
 
