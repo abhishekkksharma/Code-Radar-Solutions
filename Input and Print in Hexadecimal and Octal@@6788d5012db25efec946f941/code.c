@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void welcome(int num) {
-    printf("Hexadecimal: %X\nOctadecimal: %o\n",num);
+    printf("Hexadecimal: %X\nOctadecimal: %O\n",num);
 }
 
 int main() {
