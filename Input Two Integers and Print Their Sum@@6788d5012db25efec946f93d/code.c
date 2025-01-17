@@ -6,6 +6,7 @@ int welcome(int a, int b) {
 }
 
 int main() {
-    printf("Sum: %d", welcome());
+    int x,y;
+    printf("Sum: %d", welcome(x,y));
     return 0;
 }
