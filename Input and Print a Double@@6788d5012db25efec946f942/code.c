@@ -2,12 +2,12 @@
 
 float welcome() {
     float a;
-    scanf("%.4f",&a);
+    scanf("%f",&a);
     return a;
 }
 
 int main() {
     float x;
-    printf("%f", welcome());
+    printf("%.4f", welcome());
     return 0;
 }
