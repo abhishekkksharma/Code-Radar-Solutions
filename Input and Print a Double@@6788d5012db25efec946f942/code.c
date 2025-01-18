@@ -3,6 +3,9 @@
 float welcome() {
     float a;
     scanf("%f",&a);
+    if (a==0){
+        return 0;
+    }
     return a;
 }
 
