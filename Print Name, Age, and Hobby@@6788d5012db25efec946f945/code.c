@@ -6,7 +6,6 @@ void welcome() {
     printf("Name: %s\nAge: %d\nHobby: %s",name,age,hobby);
 }
 
-int main() {
+void main() {
     welcome();
-    return 0;
 }
