@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int welcome(int a,int b) {
-    if (a>=){
+    if (a>=b){
         return "True";
     }
     else{
