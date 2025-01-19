@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-float welcome() {
-    float a;
+double welcome() {
+    double a;
     scanf("%f",&a);
     if (a==0){
         return 0;
@@ -10,7 +10,6 @@ float welcome() {
 }
 
 int main() {
-    float x;
     printf("You entered: %.4f", welcome());
     return 0;
 }
