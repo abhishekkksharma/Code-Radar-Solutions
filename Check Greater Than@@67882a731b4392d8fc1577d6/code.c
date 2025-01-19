@@ -4,11 +4,12 @@ void welcome() {
     int a,b;
     scanf("%d %d",a,b);
     if(a>b){
-        printf("True");
+        return "True";
     }
     else{
-        printf("False");
+        return "False";
     }
+    return 0;
 }
 
 int main() {
