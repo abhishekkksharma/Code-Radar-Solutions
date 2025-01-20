@@ -11,7 +11,7 @@ int welcome(int a,int b) {
 
 int main() {
     int x,y;
-    scanf("%d %d",&a,&b);
+    scanf("%d %d",&x,&y);
     printf("%s", welcome(x,y));
     return 0;
 }
