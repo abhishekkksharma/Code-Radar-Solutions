@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int  welcome(int a, int b) {
-    if((a*a)%b==0 ||(b*b)%a==0){
+    if((b*b)%a==0){
         return "Yes";
     }else{
         return "No";
