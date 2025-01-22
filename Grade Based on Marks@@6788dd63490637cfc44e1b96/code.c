@@ -18,6 +18,6 @@ int welcome(int a) {
 int main() {
     int x;
     scanf("%d",&x);
-    printf("%c", welcome(x));
+    printf("%s", welcome(x));
     return 0;
 }
