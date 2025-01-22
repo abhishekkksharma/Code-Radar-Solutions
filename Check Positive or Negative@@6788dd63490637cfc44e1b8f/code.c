@@ -7,6 +7,9 @@ int welcome(int a) {
     else if(a<0){
         return "Negative";
     }
+    else if (a==0){
+        return "Zero";
+    }
     return 0;
 }
 
