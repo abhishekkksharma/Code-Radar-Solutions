@@ -7,6 +7,9 @@ int welcome(char c) {
     }else if(c>=65 && c<=90 ){
         return "Uppercase";
     }
+    else {
+        return "Not an alphabet";
+    }
     return 0;
 }
 
