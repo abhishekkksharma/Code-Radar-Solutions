@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int welcome(int a, int b, int c) {
     if((c*c)==(a*a)+(b*b)){
         return "Valid";
