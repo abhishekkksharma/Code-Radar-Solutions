@@ -6,6 +6,9 @@ int welcome(int a,int b) {
     }else if(a<b){
         return "Profit";
     }
+    else{
+        return "No Profit No Loss";
+    }
     return 0;
 }
 
