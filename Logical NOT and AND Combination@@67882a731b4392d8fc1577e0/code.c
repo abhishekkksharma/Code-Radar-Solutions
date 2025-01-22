@@ -4,7 +4,7 @@ int welcome(int a, int b) {
     if(!(a>=0 && b>=0)){
         return "True";
     }else{
-        return "False"
+        return "False";
     }
     return 0;
 }
