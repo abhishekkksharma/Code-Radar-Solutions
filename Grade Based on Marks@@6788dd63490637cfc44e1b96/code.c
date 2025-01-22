@@ -9,7 +9,7 @@ int welcome(int a) {
         return "C";
     }else if(a>=60 && a<70){
         return "D";
-    }else{
+    }else if(a<60){
         return "F";
     }
     return 0;
@@ -18,6 +18,6 @@ int welcome(int a) {
 int main() {
     int x;
     scanf("%d",&x);
-    printf("%s", welcome(x));
+    printf("%c", welcome(x));
     return 0;
 }
