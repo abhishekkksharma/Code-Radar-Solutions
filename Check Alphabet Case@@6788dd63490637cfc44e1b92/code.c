@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int welcome(char c) {
+char welcome(char c) {
     int x= (int)c;
     if (x>=97 && x<=122){
         return "Lowercase";
