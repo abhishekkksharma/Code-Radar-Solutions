@@ -5,9 +5,8 @@ int main() {
     int n;
     scanf("%d",&n);
     for(int i=n;i>=1;i--){
-        printf("* ");
-        printf("\n");
+        printf("%s",i*'*');
     }
-    // printf("\n");
+    printf("\n");
     return 0;
 }
