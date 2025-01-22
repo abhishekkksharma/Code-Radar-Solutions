@@ -14,6 +14,6 @@ int welcome(int a,int b,int c) {
 int main() {
     int x,y,z;
     scanf("%d %d %d",&x,&y,&z);
-    printf("%s", welcome(x,y,z));
+    printf("%d", welcome(x,y,z));
     return 0;
 }
