@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int welcome(char c) {
-    x = (int)c;
-    if (x>=97 && x<=122){
+    (int)c;
+    if (c>=97 && c<=122){
         return "Lowercase";
-    }else if(x>=65 && x<=90 ){
+    }else if(c>=65 && c<=90 ){
         return "Uppercase";
     }
     return 0;
