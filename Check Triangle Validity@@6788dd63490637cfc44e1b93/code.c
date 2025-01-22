@@ -4,7 +4,7 @@ int welcome(int a, int b, int c) {
     if((c*c)==(a*a)+(b*b)){
         return "Valid";
     }else{
-        return "Not Valid";
+        return "Inalid";
     }
     return 0;
 }
