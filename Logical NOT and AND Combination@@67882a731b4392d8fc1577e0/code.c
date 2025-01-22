@@ -12,6 +12,11 @@ int welcome(int a, int b) {
 int main() {
     int x,y;
     scanf("%d %d",&x,&y);
-    printf("%s", welcome(x,y));
+    if (!(x>0 && y>0)){
+        printf("True");
+    }else{
+        printf("False");
+    }
+    // printf("%s", welcome(x,y));
     return 0;
 }
