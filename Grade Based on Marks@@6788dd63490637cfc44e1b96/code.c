@@ -2,15 +2,15 @@
 
 int welcome(int a) {
     if (a>=90){
-        return "A";
+        return 'A';
     }else if(a>=80 && a<90){
-        return "B";
+        return 'B';
     }else if(a>=70 && a<80){
-        return "C";
+        return 'C';
     }else if(a>=60 && a<70){
-        return "D";
+        return 'D';
     }else if(a<60){
-        return "F";
+        return 'F';
     }
     return 0;
 }
@@ -18,6 +18,6 @@ int welcome(int a) {
 int main() {
     int x;
     scanf("%d",&x);
-    printf("%s", welcome(x));
+    printf("%c", welcome(x));
     return 0;
 }
