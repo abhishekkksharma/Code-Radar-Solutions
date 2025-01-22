@@ -7,6 +7,8 @@ int welcome(int a,int b,int c) {
         return b;
     }else if(c>a && c>b){
         return c;
+    }else{
+        return a;
     }
     return 0;
 }
