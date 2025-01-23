@@ -10,7 +10,6 @@ int welcome(char c) {
     }
     return 0;
 }
-
 int main() {
     char x;
     scanf("%c",&x);
