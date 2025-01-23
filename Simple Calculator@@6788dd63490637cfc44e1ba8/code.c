@@ -9,7 +9,13 @@ int welcome(int a, int b, char c) {
         case '*':
             return a*b;
         case '/':
-            return (int)a/b;      
+            if (b == 0) {
+                // Handle division by zero error
+                printf("Error: Division by zero.\n");
+                return -1;
+            } else {
+                return a / b;
+            }     
         default:
             return "error";          
     }
