@@ -10,8 +10,7 @@ int welcome(int a, int b, char c) {
             return a*b;
         case '/':
             if (b == 0) {
-                printf("error");
-                return -1;
+                return "error"
             } else {
                 return a / b;
             }     
