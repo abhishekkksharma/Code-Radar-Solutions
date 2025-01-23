@@ -19,7 +19,7 @@ int welcome(int a) {
 }
 
 int main() {
-    int x9;
+    int x;
     scanf("%d",&x);
     printf("%s", welcome(x));
     return 0;
