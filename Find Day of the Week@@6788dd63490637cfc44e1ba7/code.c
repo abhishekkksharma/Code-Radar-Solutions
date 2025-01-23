@@ -16,8 +16,6 @@ int welcome(int a) {
             return "Saturday";
         case 7:
             return "Sunday";
-        default:
-            return 0;
     }
     return 0;
 }
