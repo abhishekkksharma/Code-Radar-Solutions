@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int welcome(char c) {
-    if(c=='a' ||c=='e' c=='i' || c=='o' || c=='u'){
+    if(c=='a' ||c=='e' || c=='i' || c=='o' || c=='u'){
         return "Vowel";
     }else if((c>='a' && c<='z')){
         return "Constant";
