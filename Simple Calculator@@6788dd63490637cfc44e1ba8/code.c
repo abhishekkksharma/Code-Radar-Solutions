@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int welcome(int a, int b, char c) {
+const char* welcome(int a, int b, char c) {
     switch(c){
         case '+':
             return a+b;
