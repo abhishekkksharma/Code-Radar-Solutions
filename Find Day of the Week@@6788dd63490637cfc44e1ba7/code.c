@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int welcome(int a) {
+int* welcome(int a) {
     switch (a){
         case 1:
             return "Monday";
@@ -25,7 +25,7 @@ int welcome(int a) {
 int main() {
     int x;
     scanf("%d",&x);
-    printf("%s", welcome(x));
+    printf("%s", welcome(&x));
     return 0;
 }
 
