@@ -4,8 +4,11 @@ int welcome(int a) {
     if (a<0){
         return "Negative";
 
-    }else{
+    }else if(a>0){
         return "Positive";
+    }
+    else{
+        return "Zero";
     }
     return 0;
 }
