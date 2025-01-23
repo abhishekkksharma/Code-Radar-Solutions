@@ -18,7 +18,7 @@ const char* welcome(int a) {
         case 7:
             return "Sunday";
         default:
-            return 0;
+            return "Invalid";
     }
     return 0;
 }
