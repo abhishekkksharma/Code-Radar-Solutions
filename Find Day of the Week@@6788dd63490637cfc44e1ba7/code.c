@@ -12,14 +12,17 @@ int welcome(int a) {
             return "Wednesday";
             break;
         case 4:
-            return "Friday";
+            return "Thursday";
             break;
         case 5:
-            return "Saturday";
+            return "Friday";
             break;
         case 6:
-            return "Sunday";
+            return "Saturday";
             break;
+        case 7:
+            return "Sunday";
+            break;    
         default:
             return 0;
     }
