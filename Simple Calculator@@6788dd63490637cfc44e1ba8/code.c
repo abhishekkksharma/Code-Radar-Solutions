@@ -10,8 +10,7 @@ int welcome(int a, int b, char c) {
             return a*b;
         case '/':
             if (b == 0) {
-                // Handle division by zero error
-                printf("Error: Division by zero.\n");
+                printf("error");
                 return -1;
             } else {
                 return a / b;
