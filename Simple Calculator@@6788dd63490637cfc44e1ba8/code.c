@@ -15,7 +15,7 @@ int welcome(int a, int b, char c) {
                 return a / b;
             }     
         default:
-            return "error";          
+            return "Error";          
     }
 
     return 0;
