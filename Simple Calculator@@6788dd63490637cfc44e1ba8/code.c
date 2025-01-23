@@ -9,7 +9,7 @@ int welcome(int a, int b, char c) {
         case '*':
             return a*b;
         case '/':
-            return a/b;      
+            return (int)a/b;      
         default:
             return "error";          
     }
