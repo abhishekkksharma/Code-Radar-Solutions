@@ -10,7 +10,7 @@ int welcome(int a, int b, char c) {
             return a*b;
         case '/':
             if (b == 0) {
-                return "Error";
+                return -1;
             } else {
                 return a / b;
             }     
@@ -24,6 +24,11 @@ int welcome(int a, int b, char c) {
 int main() {
     int x,y; char q;
     scanf("%d %d %c",&x,&y,&q);
-    printf("%s", welcome(x,y,q));
+    int result= welcome(x,y,q);
+    if (result==-1){
+        printf("error");
+    }else{
+    printf("%d", result);
+    }
     return 0;
 }
