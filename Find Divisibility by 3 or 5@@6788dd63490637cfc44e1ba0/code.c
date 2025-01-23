@@ -8,7 +8,7 @@ int welcome(int a) {
     }else if(a%3==0){
         return "Divisible by 3";
     }else{
-        return "Not Divisible"
+        return "Not Divisible";
     }
     return 0;
 }
