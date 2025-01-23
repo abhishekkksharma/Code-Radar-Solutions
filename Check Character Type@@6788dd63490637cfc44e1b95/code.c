@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char welcome(char c) {
+int welcome(char c) {
     if(c=='a' ||c=='e' c=='i' || c=='o' || c=='u'){
         return "Vowel";
     }else if((c>='a' && c<='z')){
