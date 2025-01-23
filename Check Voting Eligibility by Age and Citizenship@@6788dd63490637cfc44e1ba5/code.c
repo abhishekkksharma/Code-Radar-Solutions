@@ -4,7 +4,7 @@ int welcome(int a,int b) {
     if(a>=18 && b==1){
         return "Eligible";
     }else if(a<18 || b==0 ){
-        return "Not eligible";
+        return "Not Eligible";
     }
     return 0;
 }
