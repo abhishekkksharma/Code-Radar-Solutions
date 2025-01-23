@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char welcome(int a) {
+int welcome(int a) {
     switch (a){
         case 1:
             return "Monday";
