@@ -10,13 +10,13 @@ int welcome(int a, int b, char c) {
             return a*b;
         case '/':
             if (b == 0) {
-                printf("error");
+                printf("Rrror");
                 return -1;
             } else {
                 return a / b;
             }     
         default:
-            return "error";          
+            return "Error";          
     }
 
     return 0;
