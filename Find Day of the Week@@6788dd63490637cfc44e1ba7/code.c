@@ -3,17 +3,25 @@
 int welcome(int a) {
     switch (a){
         case 1:
-        return "Monday";
+            return "Monday";
+            break;
         case 2:
-        return "Tuesday";
+            return "Tuesday";
+            break;
         case 3:
-        return "Wednesday";
+            return "Wednesday";
+            break;
         case 4:
-        return "Friday";
+            return "Friday";
+            break;
         case 5:
-        return "Saturday";
+            return "Saturday";
+            break;
         case 6:
-        return "Sunday"
+            return "Sunday";
+            break;
+        default:
+            return 0;
     }
     return 0;
 }
