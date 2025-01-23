@@ -8,6 +8,9 @@ int welcome(char c) {
     }else if (c>='0' && c<='9'){
         return "Digit";
     }
+    else{
+        return "Special Character";
+    }
     return 0;
 }
 int main() {
