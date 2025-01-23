@@ -10,8 +10,8 @@ int welcome(int a, int b) {
 }
 
 int main() {
-    int x;
-    scanf("%d",&x);
-    printf("%s", welcome(x));
+    int x,y;
+    scanf("%d %d",&x,&y);
+    printf("%s", welcome(x,y));
     return 0;
 }
