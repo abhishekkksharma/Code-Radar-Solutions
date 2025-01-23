@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int* welcome(int a) {
+int welcome(int a) {
     switch (a){
         case 1:
             return "Monday";
-            
+
         case 2:
             return "Tuesday";
         case 3:
@@ -26,7 +26,7 @@ int* welcome(int a) {
 int main() {
     int x;
     scanf("%d",&x);
-    printf("%s", welcome(&x));
+    printf("%s", welcome(x));
     return 0;
 }
 
