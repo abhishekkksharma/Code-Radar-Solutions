@@ -3,7 +3,8 @@
 int* welcome(int a) {
     switch (a){
         case 1:
-            printf("Monday");
+            return "Monday";
+            
         case 2:
             return "Tuesday";
         case 3:
