@@ -1,29 +1,36 @@
 #include <stdio.h>
 
-int welcome(int a) {
-    if(a==1){
-        return "Monday";
-    }else if(a==2){
-        return "Tuesday";
-    }else if(a==3){
-        return "Wednesday";
-    }else if(a==4){
-        return "Thursday";
-    }else if(a==5){
-        return "Friday";
-    }else if(a==6){
-        return "Saturday";
-    }else if(a==7){
-        return "Sunday";
-    }else{
-        return "Invalid month";
-    }
-    return  0;
-}
-
 int main() {
     int x;
+    int a=31,b=30,c=28;
     scanf("%d",&x);
+    switch(x){
+        case 1:
+            printf("%d",a);
+            break;
+        case 2:
+            printf("%d",c); 
+            break;
+        case 3:
+            printf("%d",b);
+            break;
+        case 4:
+            printf("%d",b); 
+            break 
+        case 5:
+            printf("%d",a);
+            break;      
+        case 6:
+            printf("%d",b);
+            
+        case 7:
+            printf("%d",b);
+        case 8:
+            printf("%d",b);
+        case 9:
+            printf("%d",b);
+
+    }
     printf("%s", welcome(x));
     return 0;
 }
