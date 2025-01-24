@@ -15,6 +15,8 @@ int welcome(int a) {
         return "Saturday";
     }else if(a==7){
         return "Sunday";
+    }else{
+        return "Invalid month";
     }
     return  0;
 }
