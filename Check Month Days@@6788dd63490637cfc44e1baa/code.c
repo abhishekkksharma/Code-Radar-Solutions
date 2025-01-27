@@ -12,7 +12,7 @@ int main() {
             printf("%d",c); 
             break;
         case 3:
-            printf("%d",b);
+            printf("%d",a);
             break;
         case 4:
             printf("%d",b); 
@@ -24,22 +24,22 @@ int main() {
             printf("%d",b);
             break;
         case 7:
-            printf("%d",b);
+            printf("%d",a);
             break;
         case 8:
-            printf("%d",b);
+            printf("%d",a);
             break;
         case 9:
             printf("%d",b);
             break;
         case 10:
-            printf("%d",b);
+            printf("%d",a);
             break;
         case 11:
             printf("%d",b);
             break;
         case 12:
-            printf("%d",b);
+            printf("%d",a);
             break;
         default:
             printf("Invalid month");    
