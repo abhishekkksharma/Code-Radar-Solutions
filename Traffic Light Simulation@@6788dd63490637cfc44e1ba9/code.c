@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-const char* welcome(char c) {
+int welcome(char c) {
     if(c=='R'|| c=='r'){
         return "Stop";
     }
