@@ -22,15 +22,28 @@ int main() {
             break;      
         case 6:
             printf("%d",b);
-            
+            break;
         case 7:
             printf("%d",b);
+            break;
         case 8:
             printf("%d",b);
+            break;
         case 9:
             printf("%d",b);
+            break;
+        case 10:
+            printf("%d",b);
+            break;
+        case 11:
+            printf("%d",b);
+            break;
+        case 12:
+            printf("%d",b);
+            break;
+        default:
+            printf("Invalid month");    
 
     }
-    printf("%s", welcome(x));
     return 0;
 }
