@@ -10,7 +10,7 @@ const char* welcome(char c) {
     else if(c=='Y' || c=='y'){
         return "Slow Down";
     }else {
-        return "Invalid";
+        return "Invalid input";
     }
     return 0;
 }
