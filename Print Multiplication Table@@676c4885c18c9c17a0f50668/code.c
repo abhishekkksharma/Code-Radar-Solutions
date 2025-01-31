@@ -2,7 +2,7 @@
 
 int main() {
     int n;
-    int arr[10];
+    int arr[];
     scanf("%d",&n);
     for(int i=0; i<10;i++){
         arr[i]= n*(i);
