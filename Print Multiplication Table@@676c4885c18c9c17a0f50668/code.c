@@ -8,7 +8,7 @@ int main() {
         arr[i]+= n*(i+1);
     }
     for(int i=1; i<10;i++){
-        printf("%d x %d = %d",n,arr[i]);
+        printf("%d x %d = %d",n,i,arr[i]);
     }
     return 0;
 }
