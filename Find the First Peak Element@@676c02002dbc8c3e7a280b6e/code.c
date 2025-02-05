@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int n;
-    int max;
+    int max=0;
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
