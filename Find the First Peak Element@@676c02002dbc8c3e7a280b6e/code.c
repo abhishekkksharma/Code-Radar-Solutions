@@ -6,13 +6,16 @@ char* welcome() {
 
 int main() {
     int n;
+    int max;
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        if()
+        if(arr[i]>arr[i+1]){
+            arr[i]=max;
+        }
     }
-    printf("%s", welcome());
+    printf("%d",max);
     return 0;
 }
