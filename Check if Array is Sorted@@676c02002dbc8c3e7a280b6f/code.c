@@ -15,7 +15,7 @@ int main() {
             printf("Not Sorted");
             break;
         }else if(arr[0]==arr[1]){
-            printf("Not Sorted");
+            printf("Sorted");
             break;
         }
     }
