@@ -13,6 +13,7 @@ int main() {
             break;
         }else if(arr[0]>arr[1]){
             printf("Not Sorted");
+            break;
         }
     }
     return 0;
