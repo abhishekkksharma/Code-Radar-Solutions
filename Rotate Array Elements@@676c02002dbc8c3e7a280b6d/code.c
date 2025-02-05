@@ -1,21 +1,31 @@
 #include <stdio.h>
 
 int main() {
-    int n,k;
-    scanf("%d",&n);
+    int n, k;
+    scanf("%d", &n);
+    
     int arr[n];
-    for(int i=0; i<n;i++){
-        scanf("%d",&arr[i]);
+    
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    scanf("%d",&k);
-    for(int i=0;i < n/2;i++){
-        int temp;
-        temp=arr[i];
-        arr[i]=arr[n-i-1];
-        arr[n-i-1]=temp;
+    
+    scanf("%d", &k);
+    
+    k = k % n;
+    
+    if (k < 0) {
+        k += n;
     }
-    for(int i=0;i<n;i++){
-        printf("%d\n",arr[i]);
+    
+    int rotated[n];
+    
+    for (int i = 0; i < n; i++) {
+        rotated[(i + k) % n] = arr[i];
+    }
+    
+    for (int i = 0; i < n; i++) {
+        printf("%d ", rotated[i]);
     }
     
     return 0;
