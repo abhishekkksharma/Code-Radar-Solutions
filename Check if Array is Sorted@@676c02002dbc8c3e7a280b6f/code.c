@@ -11,7 +11,7 @@ int main() {
         if(arr[i]<arr[i+1]){
             printf("Sorted");
             break;
-        }else if(arr[i]>arr[i+1]){
+        }else if(arr[0]>arr[1]){
             printf("Not Sorted");
         }
     }
