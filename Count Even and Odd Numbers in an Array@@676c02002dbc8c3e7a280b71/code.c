@@ -12,9 +12,9 @@ int main() {
     count_odd=0;
     for(int i=0;i<n;i++){
         if(arr[i]%2==0){
-            count_even++;
+            count_even+=1;
         }else{
-            count_odd++;
+            count_odd+=1;
         }
     }
     printf("%d %d", count_even,count_odd);
