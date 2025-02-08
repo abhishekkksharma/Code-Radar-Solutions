@@ -21,7 +21,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<a;i++){
-        if(welcome(arr[i]==1)){
+        if(welcome(arr[i])==1){
             printf("1");
         }else{
             printf("0");
