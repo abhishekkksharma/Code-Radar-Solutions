@@ -14,7 +14,7 @@ int welcome(int num) {
 }
 
 int main() {
-        int a;
+    int a;
     scanf("%d",&a);
     int arr[a];
     for(int i=0;i<a;i++){
