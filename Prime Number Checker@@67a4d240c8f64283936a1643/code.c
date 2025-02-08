@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int welcome(int arr[]) {
-    if(arr[]<=1){
+int welcome(int arr[i]) {
+    if(arr[i]<=1){
         return 0;
     }
     for(int i=2;i*i<arr[];i++){
