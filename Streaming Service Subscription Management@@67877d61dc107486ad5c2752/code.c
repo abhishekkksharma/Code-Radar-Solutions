@@ -2,14 +2,14 @@
 
 
 int main() {
-    int Basic,Standard,Premium;
-    char first_name[10];
-    char sub[10];
-    float rev,rev_basic,rev_stan,rev_prem;
+    int Basic=0,Standard=0,Premium=0;
+    float rev,rev_basic=0,rev_stan=0,rev_prem=0;
     int x;
     scanf("%d",&x);
     for(int i=0;i<x;i++){
-        scanf("%s %s %f",&first_name,&sub,&rev);
+        char first_name[10], sub[10];
+        float rev;
+        scanf("%s %s %f",first_name,sub,&rev);
     }
     for(int i=0;i<n;i++){
         if(sub==Basic){
