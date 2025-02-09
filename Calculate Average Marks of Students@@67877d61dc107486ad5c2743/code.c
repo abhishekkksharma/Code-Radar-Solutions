@@ -9,7 +9,7 @@ int main() {
         char name[10];
         float marks,Average=0;
         scanf("%d %s %f",&roll_num,name,&marks);
-        Average=marks[i]/n;
+        Average=marks/n;
         printf("Average Marks: %.2f",Average);
     }    
     return 0;
