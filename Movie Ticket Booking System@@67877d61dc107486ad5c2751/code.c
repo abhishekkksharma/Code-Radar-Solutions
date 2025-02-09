@@ -12,9 +12,9 @@ int main() {
     }
     if(strcmp(sub, "Basic")==0){
         rev_standard+=price;
-    }else if(strcmp(sub,"Premium")==0){
+    }else if(strcmp(sub, "Premium")==0){
         rev_prem+=price;
-    }else if(strcmp(sub,"VIP")==0){
+    }else if(strcmp(sub, "VIP")==0){
         rev_vip+=price;
     }
     printf("standard: %.2f, Premium: %.2f, VIP: %.2f",rev_standard,rev_prem,rev_vip);
