@@ -3,8 +3,8 @@
 
 int main() {
     int Basic,Standard,Premium;
-    int first_name[10];
-    int sub[10];
+    char first_name[10];
+    char sub[10];
     float rev,rev_basic,rev_stan,rev_prem;
     int x;
     scanf("%d",&x);
