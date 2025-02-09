@@ -8,9 +8,9 @@ int main() {
     
     for (int i = 0; i < x; i++) {
         char movie_name[10], sub[10];
-        float price;
+        int price;
+        scanf("%s %s %f", movie_name, sub, &price);
         
-        scanf("%s %s %f", movie_name, sub, &price);        
         if (strcmp(sub, "Standard") == 0) {
             rev_standard += price;
         } else if (strcmp(sub, "Premium") == 0) {
