@@ -9,7 +9,7 @@ int main() {
         float price;
         scanf("%s %s %f",movie_name,sub,&price);
     }
-    int rev_standard,rev_prem,rev_vip;
+    int rev_standard=0,rev_prem=0,rev_vip=0;
     if(strcmp(sub=="Standard")){
         rev_standard+=rev;
     }else if(strcmp(sub=="Premium")){
