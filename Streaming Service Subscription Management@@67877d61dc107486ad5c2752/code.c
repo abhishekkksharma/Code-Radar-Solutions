@@ -14,14 +14,14 @@ int main() {
     for(int i=0;i<n;i++){
         if(sub==Basic){
             Basic++;
-            rev_basic++;
+            rev_basic+=rev;
 
         }else if(sub==Standard){
             Standard++;
-            rev_stan++;
+            rev_stan+= rev;
         }else if(sub==Premium){
             Premium++;
-            rev_prem++;
+            rev_prem+=rev;
         }
     }
     printf("Basic: %d Users, Revenue: %.2f; Standard: %d Users, Revenue: %.2f; Premium: %d Users, Revenue: %.2f",Basic,rev_basic,Standard,rev_stan,Premium,rev_prem)
