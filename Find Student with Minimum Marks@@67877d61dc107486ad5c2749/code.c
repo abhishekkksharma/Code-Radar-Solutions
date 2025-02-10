@@ -11,10 +11,8 @@ int main() {
         scanf("%d %s %f",&roll[i],&name[i],&marks[i]);
     }
     for(int i=0;i<n;i++){
-        if(n==1){
-            printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",roll[0],name[0],marks[0]);
-        }
-        else(marks[i]<marks[i+1]){
+        
+        if(marks[i]<marks[i+1]){
             printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",roll[i],name[i],marks[i]);
         }
     }
