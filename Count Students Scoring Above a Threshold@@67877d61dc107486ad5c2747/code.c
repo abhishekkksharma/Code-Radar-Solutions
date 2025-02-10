@@ -14,7 +14,7 @@ int main() {
     int count=0;
     scanf("%f",&target);
     for(int i=0;i<n;i++){
-        if(marks[i]==target){
+        if(marks[i]>target){
             count++;
         }
     }
