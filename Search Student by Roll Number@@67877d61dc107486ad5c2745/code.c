@@ -7,17 +7,17 @@ int main() {
     
     int roll_num[n];
     char name[n][10];
-    float marks, Average = 0;
+    float marks[n];
 
     for(int i = 0; i < n; i++) {
-        scanf("%d %s %f", &roll_num[i], name[i], &marks);
+        scanf("%d %s %f", &roll_num[i], name[i], &marks[i]);
     }
 
     scanf("%d", &target);
 
     for(int i = 0; i < n; i++) {
         if(target == roll_num[i]) {
-            printf("Roll number: %d, Name: %s, Marks: %.2f\n", roll_num[i], name[i], marks);
+            printf("Roll number: %d, Name: %s, Marks: %.2f\n", roll_num[i], name[i], marks[i]);
         }
     }
 
