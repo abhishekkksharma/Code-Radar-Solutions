@@ -12,7 +12,7 @@ int main() {
     }
     for(int i=0;i<n;i++){
         if(marks[i]<marks[i+1]){
-            printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f");
+            printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",roll[i],name[i],marks[i]);
         }
     }
     return 0;
