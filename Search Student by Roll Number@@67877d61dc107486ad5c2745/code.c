@@ -15,6 +15,7 @@ int main() {
                 printf("Roll number: %d, Name: %s, Marks: %.2f",roll_num[i],name,marks);
             } 
 
-    }}
+    }
+    }
     return 0;
 }
