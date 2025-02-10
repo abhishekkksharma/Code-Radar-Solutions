@@ -6,7 +6,7 @@ int main() {
     scanf("%d",&n);
     int roll_num[n];
     char name[n][100];
-    float marks,Average=0;
+    float marks[n],Average=0;
     for(int i=0;i<n;i++){
         scanf("%d %s %f",&roll_num[i],name,&marks);
         scanf("%d",&target);
