@@ -3,12 +3,12 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int roll;
-    char name[10];
+    int roll[n];
+    char name[n][100];
     float marks[n],total,target;;
     
     for(int i=0;i<n;i++){
-        scanf("%d %s %f",&roll,&name,&marks[i]);
+        scanf("%d %s %f",&roll[i],&name[i],&marks[i]);
         total+=marks;
 
     }
