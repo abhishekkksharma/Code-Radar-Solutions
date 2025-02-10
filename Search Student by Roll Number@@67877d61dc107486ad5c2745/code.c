@@ -13,7 +13,7 @@ int main() {
     scanf("%d",&target);    
     for(int i=0;i<n;i++){
         if(roll_num[i]==target){
-            printf("Roll number: %d, Name: %s, Marks: %.2f",roll_num[i],name[i],marks[i]);
+            printf("Roll Number: %d, Name: %s, Marks: %.2f",roll_num[i],name[i],marks[i]);
             break;
     } 
 
