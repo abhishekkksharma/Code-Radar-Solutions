@@ -8,7 +8,7 @@ int main() {
     float marks,total,average;;
     
     for(int i=0;i<n;i++){
-        scanf("%d %s %f",&roll,name,marks);
+        scanf("%d %s %f",&roll,&name,&marks);
         total+=marks;
 
     }
