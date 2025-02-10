@@ -18,6 +18,8 @@ int main() {
     for(int i = 0; i < n; i++) {
         if(target == roll_num[i]) {
             printf("Roll Number: %d, Name: %s, Marks: %.2f\n", roll_num[i], name[i], marks[i]);
+        }else{
+            printf("Student not found");
         }
     }
 
