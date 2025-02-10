@@ -9,16 +9,11 @@ int main() {
     
     for(int i=0;i<n;i++){
         scanf("%d %s %f",&roll[i],&name[i],&marks[i]);
-        total+=marks;
-
     }
-    // int count=0;
-    // scanf("%f",&target);
-    // for(int i=0;i<n;i++){
-    //     if(marks[i]==target){
-    //         count++;
-    //     }
-    // }
-    // printf("Count of students scoring above %.2f: ",count);
+    for(int i=0;i<n;i++){
+        if(marks[i]<marks[i+1]){
+            printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f");
+        }
+    }
     return 0;
 }
