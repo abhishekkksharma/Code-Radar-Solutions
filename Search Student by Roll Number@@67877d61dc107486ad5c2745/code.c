@@ -20,6 +20,7 @@ int main() {
             printf("Roll Number: %d, Name: %s, Marks: %.2f\n", roll_num[i], name[i], marks[i]);
         }else{
             printf("Student not found");
+            break;
         }
     }
 
