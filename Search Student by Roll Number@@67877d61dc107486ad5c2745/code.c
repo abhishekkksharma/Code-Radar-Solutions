@@ -2,7 +2,7 @@
 
 
 int main() {
-    int n;
+    int n,target;
     scanf("%d",&n);
     int roll_num[n];
     char name[n][100];
