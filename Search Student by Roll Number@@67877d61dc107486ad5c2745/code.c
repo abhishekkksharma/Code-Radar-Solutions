@@ -18,6 +18,7 @@ int main() {
         } 
         else if(roll_num[i]!=target){
             printf("Student not found");
+            break;
         }
 
     }
