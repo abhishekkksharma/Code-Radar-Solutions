@@ -8,7 +8,7 @@ int main() {
     char name[n][100];
     float marks[n];
     for(int i=0;i<n;i++){
-        scanf("%d %s %f",&roll_num[i],name,&marks);
+        scanf("%d %s %f",&roll_num[i],name[i],&marks[i]);
     }
     scanf("%d",&target);    
     for(int i=0;i<n;i++){
