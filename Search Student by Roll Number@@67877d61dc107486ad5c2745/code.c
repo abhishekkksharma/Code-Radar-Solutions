@@ -16,7 +16,7 @@ int main() {
     scanf("%d", &target);
 
     for(int i = 0; i < n; i++) {
-        if(target == roll_num[i]) {
+        if( roll_num[i]== target ) {
             printf("Roll Number: %d, Name: %s, Marks: %.2f\n", roll_num[i], name[i], marks[i]);
         }else if (roll_num[i]!=target){
             printf("Student not found");
