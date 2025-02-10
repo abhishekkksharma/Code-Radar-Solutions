@@ -9,7 +9,6 @@ int main() {
     
     for(int i=0;i<n;i++){
         scanf("%d %s %f",&roll,&name,&marks[i]);
-        total+=marks;
 
     }
     int count=0;
