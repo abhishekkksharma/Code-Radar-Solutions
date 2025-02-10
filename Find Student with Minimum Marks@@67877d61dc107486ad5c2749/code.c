@@ -12,13 +12,13 @@ int main() {
         total+=marks;
 
     }
-    int count=0;
-    scanf("%f",&target);
-    for(int i=0;i<n;i++){
-        if(marks[i]==target){
-            count++;
-        }
-    }
+    // int count=0;
+    // scanf("%f",&target);
+    // for(int i=0;i<n;i++){
+    //     if(marks[i]==target){
+    //         count++;
+    //     }
+    // }
     printf("Count of students scoring above %.2f: ",count);
     return 0;
 }
