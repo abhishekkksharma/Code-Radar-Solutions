@@ -12,8 +12,8 @@ int main() {
     }
     int max=0;
     for(int i=0; i<n;i++){
-        if(roll_num[i]>max){
-            max=roll_num[i];
+        if(marks[i]>max){
+            max=marks[i];
         }
     }
     printf("Top scorer: Roll number: %d, Name: %s, Marks: %.2f",roll_num[max+1],name[max+1],marks[max+1]);
