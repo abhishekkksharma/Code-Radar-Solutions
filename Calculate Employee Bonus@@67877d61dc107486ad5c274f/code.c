@@ -10,7 +10,7 @@ int main() {
         scanf("%d %s %f",&id[i],name[i],&sallary[i]);
     }
     for(int i=0;i<n;i++){
-        printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",id[i],Name[i],(0.1)*sallary[i]);
+        printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",id[i],Name[i],(10.00/100)*sallary[i]);
     }
     return 0;
 }
