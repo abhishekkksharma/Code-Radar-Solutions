@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-
 int main() {
     int n;
-    scanf("%n",&n);
-    int roll_num[];
-    char name[10];
+    scanf("%d",&n);
     for (int i=0;i<n;i++){
-        scanf
+        char name[10];
+        int roll_num;
+        float marks;
+        scanf("%d %s %f",&roll_num,name,&marks);
+        printf("Roll Number: %d, Name: %s, Marks: %.2f\n",roll_num,name,marks);
     }
-    printf("%s", welcome());
     return 0;
 }
