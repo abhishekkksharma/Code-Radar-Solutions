@@ -7,7 +7,7 @@ int main() {
     float total=0;
     for(int i=0;i<n;i++){
         scanf("%s %f",day[i],&temp[i]);
-        total+=temp;
+        total+=temp[i];
     }
     float average=(total/7);
     printf("Average Temperature: %.2f\n",average);
