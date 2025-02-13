@@ -16,6 +16,6 @@ int main() {
             max=marks[i];
         }
     }
-    printf("Top scorer: Roll number: %d, Name: %s, Marks: %.2f",roll_num[max+1],name[max+1],marks[max+1]);
+    printf("Top scorer: Roll number: %d, Name: %s, Marks: %.2f",roll_num[max+1],name,marks[max+1]);
     return 0;
 }
