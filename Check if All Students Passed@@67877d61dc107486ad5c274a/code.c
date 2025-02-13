@@ -3,13 +3,13 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int roll_num[n], name[n][10]
+    int roll_num[n], name[n][10];
     float marks[n];
     for(int i=0;i<n;i++){
         scanf("%d %s %f",&roll_num[i],name[i],&marks[i]);
     }
     for(int i=0;i<n;i++){
-        if(marks[i]>50){
+        if(marks[i]>50.00){
             printf("All Passed");
             break;
         }else{
