@@ -3,7 +3,7 @@
 
 int main() {
     int n;
-    scanf("%n",&n);
+    scanf("%d",&n);
     int roll_num[n];
     char name[n][10];
     float marks[n];
