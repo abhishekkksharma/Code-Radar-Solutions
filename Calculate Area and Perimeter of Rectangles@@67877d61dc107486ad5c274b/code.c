@@ -3,7 +3,7 @@
 int main() {
     int n;
     scanf("%d",&n);
-    int len[n],width[n];
+    float len[n],width[n];
     for(int i=0;i<n;i++){
         scanf("%d %d",&len[i],&width[i]);
     }
