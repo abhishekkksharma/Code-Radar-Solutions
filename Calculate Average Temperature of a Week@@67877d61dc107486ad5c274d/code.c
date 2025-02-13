@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    char day[7][10];
+    char day[7][12];
     float temp[7];
     float total=0;
     for(int i=1;i<=7;i++){
