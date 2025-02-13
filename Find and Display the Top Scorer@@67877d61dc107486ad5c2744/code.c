@@ -11,13 +11,11 @@ int main() {
         scanf("%d %s %f",&roll_num[i],&name[i],&marks[i]);
     }
     int max=0;
-    int count=0;
     for(int i=0; i<n;i++){
         if(marks[i]>max){
             max=marks[i];
-            count++;
         }
     }
-    printf("Top scorer: Roll number: %d, Name: %s, Marks: %.2f",roll_num[count],name,marks[max+1]);
+    printf("Top scorer: Roll number: %d, Name: %s, Marks: %.2f",roll_num[max+1],name,marks[max+1]);
     return 0;
 }
