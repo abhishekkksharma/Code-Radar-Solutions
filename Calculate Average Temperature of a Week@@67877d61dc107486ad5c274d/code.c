@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    char day[n][10];
-    float temp[n];
+    char day[7][10];
+    float temp[7];
     float total=0;
     for(int i=1;i<=7;i++){
         scanf("%s %f",day[i],&temp[i]);
