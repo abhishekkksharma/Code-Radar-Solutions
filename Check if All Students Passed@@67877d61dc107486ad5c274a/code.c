@@ -12,7 +12,6 @@ int main() {
             printf("All Passed");
         }else{
             printf("Not All Passed");
-            break;
         }
     }
     return 0;
