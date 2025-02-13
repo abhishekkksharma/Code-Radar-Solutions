@@ -8,7 +8,7 @@ int main() {
         scanf("%d %s %f",&roll_num,name,&marks);
     }
     for(int i=0;i<n;i++){
-        if(marks[i]<50){
+        if(marks[i]<50.00){
             printf("All Passed");
             break;
         }else{
