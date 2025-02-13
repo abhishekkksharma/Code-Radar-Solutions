@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int n=7;
     char day[n][10];
     float temp[n];
     float total=0;
-    for(int i=0;i<n;i++){
+    for(int i=1;i<=7;i++){
         scanf("%s %f",day[i],&temp[i]);
         total+=temp[i];
     }
