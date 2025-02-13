@@ -10,8 +10,10 @@ int main() {
     for(int i=0;i<n;i++){
         if(marks[i]<50){
             printf("All Passed");
+            break;
         }else{
             printf("Not All Passed");
+            break;
         }
     }
     return 0;
