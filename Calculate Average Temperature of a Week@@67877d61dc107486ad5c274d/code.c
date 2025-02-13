@@ -9,6 +9,6 @@ int main() {
         total+=temp;
     }
     average=total/7;
-    printf("Average Temperature: %.2f\n: %.2f",average );
+    printf("Average Temperature: %.2f\n",average );
     return 0;
 }
