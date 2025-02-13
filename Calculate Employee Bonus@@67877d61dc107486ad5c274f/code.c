@@ -7,7 +7,7 @@ int main() {
     char name[n][10];
     float sallary[n];
     for(int i=0;i<n;i++){
-        scanf("%d %s %f",&id[i],&name[i],&sallary[i]);
+        scanf("%d %s %f",&id[i],name[i],&sallary[i]);
     }
     for(int i=0;i<n;i++){
         printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",id[i],Name[i],(10/100)*sallary[i]);
