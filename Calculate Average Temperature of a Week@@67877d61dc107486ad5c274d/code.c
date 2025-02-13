@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n=7
+    int n=7;
     char day[n][10];
     float temp[n];
     float total=0;
