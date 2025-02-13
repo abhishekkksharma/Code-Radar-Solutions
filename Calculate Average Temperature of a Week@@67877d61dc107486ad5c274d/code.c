@@ -4,7 +4,7 @@ int main() {
     char day[7][10];
     float temp[7];
     float total=0;
-    for(int i=0;i<n;i++){
+    for(int i=1;i<=7;i++){
         scanf("%s %f",&day[i],&temp[i]);
         total+=temp;
     }
