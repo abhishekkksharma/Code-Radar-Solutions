@@ -11,9 +11,10 @@ int main() {
     }
     for(int i=0;i<n;i++){
         if(sallary[i]<50000){
-            
+            printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",id[i],name[i],(10.00/100)*sallary[i]);
+        }else{
+            printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",id[i],name[i],(5.00/100)*sallary[i]);
         }
-        printf("Employee ID: %d, Name: %s, Bonus: %.2f\n",id[i],name[i],(10.00/100)*sallary[i]);
     }
     return 0;
 }
