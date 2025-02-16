@@ -12,7 +12,7 @@ int main(){
     scanf("%d",&target);
     for(int i=1;i<=n;i++){
         if(price[i]>target){
-            printf("Title: %s, Author: %s, Price: %.2f",book_name[i],book_auth[i],price[i])
+            printf("Title: %s, Author: %s, Price: %.2f",book_name[i],book_auth[i],price[i]);
         }
     }
 
