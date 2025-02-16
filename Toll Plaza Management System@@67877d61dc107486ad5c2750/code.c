@@ -9,7 +9,7 @@ int main(){
     float car_tax=0,truck_tax=0,bike_tax=0;
     for(int i=1;i<=n;i++){
         scanf("%s %s %d",number[i],type[i],&tax[i]);
-        if(type[i]=="Car"){
+        if(type[i]=='Car'){
             car_tax+=tax[i];
         }else if(type[i]=="Truck"){
             truck_tax+=tax[i];
