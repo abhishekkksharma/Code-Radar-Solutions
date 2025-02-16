@@ -8,8 +8,8 @@ int main(){
     for (int i=1;i<=n;i++){
         scanf("%s %s %f",book_name[i],book_auth[i],&price[i]);
     } 
-    int target;
-    scanf("%d",&target);
+    float target;
+    scanf("%f",&target);
     for(int i=1;i<=n;i++){
         if(price[i]>target){
             printf("Books above price: %.2f\nTitle: %s, Author: %s, Price: %.2f",target,book_name[i],book_auth[i],price[i]);
