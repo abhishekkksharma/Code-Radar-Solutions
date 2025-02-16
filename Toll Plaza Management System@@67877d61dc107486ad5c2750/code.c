@@ -13,7 +13,7 @@ int main(){
             car_tax+=tax[i];
         }else if(type[i]=="Truck"){
             truck_tax+=tax[i];
-        }else{
+        }else if(type[i]=="Bike"){
             bike_tax+=tax[i];
         }
     }
