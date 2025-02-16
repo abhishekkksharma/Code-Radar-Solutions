@@ -22,6 +22,5 @@ int main(){
     for(int i=0;i<n;i++){
         printf("Roll Number: %d, Name: %s, Grade: %c",roll_num[i],name[i],grade(marks[i]));
     }
-
     return 0;
 }
