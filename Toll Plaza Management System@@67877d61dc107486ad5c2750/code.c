@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(){
     int n;
@@ -9,21 +10,14 @@ int main(){
     float car_tax=0,truck_tax=0,bike_tax=0;
     for(int i=1;i<=n;i++){
         scanf("%s %s %d",number[i],type[i],&tax[i]);
-        // if(type[i]=="Car"){
-        //     car_tax+=tax[i];
-        // }else if(type[i]=="Truck"){
-        //     truck_tax+=tax[i];
-        // }else if(type[i]=="Bike"){
-        //     bike_tax+=tax[i];
-        // }
     }
     for(int i=1;i<=n;i++){
-        if(type[i]=="Car"){
-            car_tax+=tax[i];
-        }else if(type[i]=="Truck"){
-            truck_tax+=tax[i];
-        }else if(type[i]=="Bike"){
-            bike_tax+=tax[i];
+        if(strcmp(type[i], "Car") == 0) {
+            car_tax += tax[i];
+        } else if(strcmp(type[i], "Truck") == 0) {
+            truck_tax += tax[i];
+        } else if(strcmp(type[i], "Bike") == 0) {
+            bike_tax += tax[i];
         }
 
     }
