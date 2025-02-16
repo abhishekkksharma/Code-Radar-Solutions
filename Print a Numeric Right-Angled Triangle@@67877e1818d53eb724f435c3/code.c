@@ -6,8 +6,9 @@ int main() {
 
     for(int i = 1; i <= rows; i++) {
         for(int j = 1; j <= rows - i; j++) {
-            printf("%d\n",i);
+            printf("%d",i);
         }
+        printf("\n");
     }
 
     return 0;
