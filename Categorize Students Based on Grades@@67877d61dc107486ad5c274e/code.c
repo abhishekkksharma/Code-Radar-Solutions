@@ -20,7 +20,7 @@ int main(){
         scanf("%d %s %f",&roll_num[i],name[i],&marks[i]);
     }
     for(int i=0;i<n;i++){
-        printf("Roll Number: %d, Name: %s, Grade: %s",roll_num[i],name[i],grade(marks[i]));
+        printf("Roll Number: %d, Name: %s, Grade: %c",roll_num[i],name[i],grade(marks[i]));
     }
     return 0;
 }
