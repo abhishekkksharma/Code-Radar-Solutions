@@ -4,8 +4,6 @@ int grade(float a){
         return 'A';
     }else if(a>=70 and a<85){
         return 'B';
-    }else if(a>=70 and a<85){
-        return 'B';
     }else{
         return 'C';
     }
