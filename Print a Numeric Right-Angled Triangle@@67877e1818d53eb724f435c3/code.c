@@ -5,6 +5,7 @@ int main() {
     scanf("%d", &rows);
 
     for(int i = 1; i <= rows; i++) {
+        printf("%d",i);
         for(int j = 1; j <= rows; j++) {
             printf("%d",i);
         }
