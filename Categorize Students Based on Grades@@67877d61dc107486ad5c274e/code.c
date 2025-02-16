@@ -7,7 +7,6 @@ char grade(float a){
     }else{
         return 'C';
     }
-    return 0;
 
 }
 int main(){
