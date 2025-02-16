@@ -8,7 +8,7 @@ int main(){
     float tax[n];
     for(int i=1;i<=n;i++){
         scanf("%s %s %f",number,type,&tax);
-        printf("%s %s %f\n",number,type,tax);
+        printf("%s %s %.2f\n",number,type,tax);
     }
     return 0;
 }
