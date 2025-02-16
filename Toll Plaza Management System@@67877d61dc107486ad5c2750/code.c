@@ -5,10 +5,10 @@ int main(){
     scanf("%d",&n);
     char number[n][10];
     char type[n][10];
-    float tax[n];
+    int tax[n];
     for(int i=1;i<=n;i++){
-        scanf("%s %s %f",number,type,&tax);
-        printf("%s %s %.2f\n",number,type,tax);
+        scanf("%s %s %d",number,type,&tax);
+        printf("%s %s %d\n",number,type,tax);
     }
     return 0;
 }
