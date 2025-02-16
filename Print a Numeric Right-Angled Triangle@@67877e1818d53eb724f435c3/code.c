@@ -5,11 +5,10 @@ int main() {
     scanf("%d", &rows);
 
     for(int i = 1; i <= rows; i++) {
-        printf("\n");
         for(int j = 1; j <= rows - i; j++) {
             printf("%d",i);
         }
-        // printf("\n");
+        printf("\n");
     }
     return 0;
 }
