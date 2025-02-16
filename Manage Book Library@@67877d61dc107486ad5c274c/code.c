@@ -10,7 +10,7 @@ int main(){
     } 
     float target;
     scanf("%f",&target);
-    printf("Books above price %.2f:",target);
+    printf("Books above price %.2f:\n",target);
     for(int i=1;i<=n;i++){
         if(price[i]>target){
             printf("Title: %s, Author: %s, Price: %.2f\n",book_name[i],book_auth[i],price[i]);
