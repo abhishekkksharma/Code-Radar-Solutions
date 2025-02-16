@@ -1,5 +1,5 @@
 #include <stdio.h>
-int grade(float a){
+char grade(float a){
     if(a>=85){
         return 'A';
     }else if(a>=70 and a<85){
