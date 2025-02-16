@@ -7,7 +7,7 @@ int main(){
     char type[n][10];
     int tax[n];
     for(int i=1;i<=n;i++){
-        scanf("%s %s %d",number,type,&tax);
+        scanf("%s %s %d",number,type,&tax[i]);
         printf("%s %s %d\n",number,type,tax);
     }
     return 0;
