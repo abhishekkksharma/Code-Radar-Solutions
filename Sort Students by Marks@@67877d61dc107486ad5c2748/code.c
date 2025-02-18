@@ -10,7 +10,7 @@ int main() {
     int max_marks=0;
     for(int i=0;i<n;i++){
         if(marks[i]>max_marks){
-            marks[i]=max_marks;
+            max_marks=marks[i];
             printf("jdhbc %f",max_marks);
         }
         
