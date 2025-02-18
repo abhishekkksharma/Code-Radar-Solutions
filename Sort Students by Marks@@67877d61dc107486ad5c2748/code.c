@@ -14,6 +14,6 @@ int main() {
         }
         printf("jdhbc %f",max_marks);
     }
-    printf("Hello, World!\n");
+    // printf("Hello, World!\n");
     return 0;
 }
