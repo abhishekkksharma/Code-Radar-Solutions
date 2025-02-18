@@ -12,7 +12,7 @@ int main() {
         if(marks[i]>max_marks){
             max_marks=marks[i];
         }
-        printf("jdhbc %f",max_marks[i]);
+        printf("jdhbc %f",max_marks);
     }
     // printf("Hello, World!\n");
     return 0;
