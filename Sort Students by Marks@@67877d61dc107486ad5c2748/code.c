@@ -15,6 +15,6 @@ int main() {
         }
         
     }
-    printf("Hello, Wrld!\n");
+    printf("Hello, d!\n");
     return 0;
 }
