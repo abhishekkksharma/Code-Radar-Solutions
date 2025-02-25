@@ -3,7 +3,7 @@
 int main(){
     int rows;
     scanf("%d",&rows);
-    for(int i=1;i<=rows;i++){
+    for(int i=rows;i<=1;i--){
         char ch='A';
         for(int j=1;j<=rows; j++){
             printf("%c ",ch);
