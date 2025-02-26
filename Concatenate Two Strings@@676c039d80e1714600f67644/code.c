@@ -4,9 +4,15 @@
 int main() {
     char str1[100];
     char str2[100];
-    scanf("%s",str1);
-    scanf("%s",str2);
-    int result= strcmp(str1,str2);
-    printf("%d", result);
+    char result[200];
+    
+    scanf("%s", str1);
+    scanf("%s", str2);
+    
+    strcpy(result, str1);
+    strcat(result, str2);
+    
+    printf("%s", result);
+    
     return 0;
 }
