@@ -5,6 +5,6 @@ int main(){
     char str[100];
     scanf("%s",str);
     int count = strlen(str);
-    printf("count");
+    printf("%d",count);
     return 0;
 } 
