@@ -8,7 +8,7 @@ int main(){
     start = 0;
     end = strlen(str) - 1;
     int count =0;
-    while(start<=end){
+    while(start<end){
         if(str[start]== ' ' ){
             count++;
         }
