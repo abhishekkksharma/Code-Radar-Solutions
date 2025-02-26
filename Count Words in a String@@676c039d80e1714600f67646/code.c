@@ -1,24 +1,21 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
-    char str[100];
+int main(){
+    char str[100],temp;
     int start, end;
-    scanf("%[^\n]", str);
-
-    int count = 0;
-    int in_word = 0;
-
-    for (int i = 0; i < strlen(str); i++) {
-        if (str[i] != ' ' && !in_word) {
-            in_word = 1;
+    scanf("%s",str);
+    start = 0;
+    end = strlen(str) - 1;
+    int count =0;
+    while(start<=end){
+        if(str[start]== ' ' ){
             count++;
         }
-        if (str[i] == ' ') {
-            in_word = 0;
-        }
-    }
+        start++;
+        
 
-    printf("%d", count);
+    }
+    printf("%d",count);
     return 0;
 }
