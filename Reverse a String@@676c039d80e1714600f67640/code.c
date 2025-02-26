@@ -2,7 +2,7 @@
 #include <string.h>
 
 int main(){
-    char str[],temp;
+    char str[100],temp;
     int start, end;
     scanf("%s",str);
     start = 0;
