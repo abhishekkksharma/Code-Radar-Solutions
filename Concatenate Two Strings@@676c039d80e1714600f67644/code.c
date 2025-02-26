@@ -7,6 +7,6 @@ int main() {
     scanf("%s",str1);
     scanf("%s",str2);
     int result= strcmp(str1,str2);
-    printf("%s", result);
+    printf("%d", result);
     return 0;
 }
