@@ -6,7 +6,7 @@ int main(){
     int start, end;
     scanf("%s",str);
     start = 0;
-    end = strlen(str) - 1;
+    end = strlen(str);
     int count =0;
     while(start<end){
         if(str[start]== ' '){
