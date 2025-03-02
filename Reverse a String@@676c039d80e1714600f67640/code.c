@@ -5,8 +5,8 @@ int main(){
     char str[100],temp;
     int start, end;
     scanf("%s",str);
-    start = 0;
-    end = strlen(str) - 1;
+    start = 1;
+    end = strlen(str);
     while(start<end){
         temp = str[start];
         str[start] = str[end];
