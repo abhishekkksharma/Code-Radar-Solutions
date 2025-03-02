@@ -14,9 +14,9 @@ int palindrome(char str[]){
     return 1;
 }
 int main(){
-    char string[100];
-    fgets(string,sizeof(string),stdin)
-    if(palindrome(string)){
+    char str[100];
+    fgets(str,sizeof(str),stdin);
+    if(palindrome(str)){
         printf(Yes);
     }else{
         printf("No");
