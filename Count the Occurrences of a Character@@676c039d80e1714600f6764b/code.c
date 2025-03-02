@@ -3,7 +3,7 @@
 
 int main(){
     char str[100];
-    scanf("%s",str);
+    scanf("%99s",str);
     getchar();
     char a;
     scanf("%c",&a);
