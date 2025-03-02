@@ -5,6 +5,7 @@ int main(){
     char str[100];
     char a,b;
     scanf("%s",str);
+    getchar();
     scanf("%c %c",&a,&b);
     int start=0;
     int end =strlen(str);
