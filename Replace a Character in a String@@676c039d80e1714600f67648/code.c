@@ -10,6 +10,7 @@ int main(){
     while(start<=strlen(str)){
         if(str[start]==a){
             str[start]=b;
+            start++;
         }
     }
     printf("%s",str);
