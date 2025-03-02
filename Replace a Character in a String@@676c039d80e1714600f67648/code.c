@@ -14,6 +14,10 @@ int main(){
             str[start]=b;
             start++;
         }
+        if(str(end)==a){
+            str[end]=b;
+            end--;
+        }
     }
     printf("%s",str);
     return 0;
