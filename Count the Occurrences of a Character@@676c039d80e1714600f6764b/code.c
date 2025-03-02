@@ -16,7 +16,8 @@ int main(){
         }
         if(str[start]==a && start!=end){
             count++;
-        }
+        }start++;
+        end--;
     }
     printf("%d",count);
     return 0;
