@@ -3,7 +3,7 @@
 
 int main(){
     char str[100];
-    char a[],b[];
+    char a,b;
     scanf("%s",str);
     scanf("%c %c",&a,&b);
     int start=0;
