@@ -11,10 +11,10 @@ int main(){
     int end= strlen(str)-1;
     int count=0;
     while(start<=end){
-        if(str(start)==a){
+        if(str[start]==a){
             count++;
         }
-        if(str(end)==a && start!=end){
+        if(str[end]==a && start!=end){
             count++;
         }
     }
