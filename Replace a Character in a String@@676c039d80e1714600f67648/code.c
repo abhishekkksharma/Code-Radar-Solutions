@@ -12,12 +12,13 @@ int main(){
     while(start<=end){
         if(str[start]==a){
             str[start]=b;
-            start++;
         }
+        start++;
+
         if(str(end)==a){
             str[end]=b;
-            end--;
         }
+        end--;
     }
     printf("%s",str);
     return 0;
