@@ -14,6 +14,9 @@ int main(){
         if(str(start)==a){
             count++;
         }
+        if(str(end)==a && start!=end){
+            count++;
+        }
     }
     printf("%d",count);
     return 0;
