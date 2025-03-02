@@ -14,7 +14,7 @@ int main(){
         if(str[start]==a){
             count++;
         }
-        if(str[end]==a && start!=end){
+        if(str[start]==a && start!=end){
             count++;
         }
     }
