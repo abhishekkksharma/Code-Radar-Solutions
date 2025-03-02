@@ -8,7 +8,7 @@ int main(){
     getchar();
     scanf("%c %c",&a,&b);
     int start=0;
-    int end =strlen(str);
+    int end =strlen(str)-1;
     while(start<=end){
         if(str[start]==a){
             str[start]=b;
