@@ -7,7 +7,8 @@ int main(){
     scanf("%s",str);
     scanf("%c %c",&a,&b);
     int start=0;
-    while(start<=strlen(str)){
+    int end =strlen(str);
+    while(start<=end){
         if(str[start]==a){
             str[start]=b;
             start++;
