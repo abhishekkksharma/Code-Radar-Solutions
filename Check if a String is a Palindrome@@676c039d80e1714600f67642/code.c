@@ -17,7 +17,7 @@ int main(){
     char str[100];
     fgets(str,sizeof(str),stdin);
     if(palindrome(str)){
-        printf(Yes);
+        printf("Yes");
     }else{
         printf("No");
     }
