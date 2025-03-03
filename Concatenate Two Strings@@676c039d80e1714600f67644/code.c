@@ -9,6 +9,7 @@ int main() {
     
     strcpy(result, str1);
     strcat(result, str2);
+
     
     printf("%s", result);
     
