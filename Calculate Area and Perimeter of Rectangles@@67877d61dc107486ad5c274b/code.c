@@ -2,6 +2,7 @@
 
 int main() {
     int n;
+    
     scanf("%d",&n);
     float len[n],width[n];
     for(int i=0;i<n;i++){
