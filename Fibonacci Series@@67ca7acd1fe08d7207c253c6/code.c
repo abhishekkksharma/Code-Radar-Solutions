@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+int fibonacci(int);
 int fibonacci(int x) {
     if (x == 0) {
         return 0; 
