@@ -8,6 +8,6 @@ int main(){
     return 0;
 }
 int fibonacci(int x){
-    return x * fibonacci(x-1);
+    return  fibonacci(x-1) + fibonacci(x-2); 
 }
 
