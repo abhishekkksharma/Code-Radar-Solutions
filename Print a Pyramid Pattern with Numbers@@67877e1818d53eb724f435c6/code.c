@@ -12,7 +12,7 @@ int main() {
         int x = 1;
         for (int j = 1; j <= (2 * i - 1); j++) {
             printf("%d ", x);
-            x++
+            x++;
         }
         printf("\n");
     }
