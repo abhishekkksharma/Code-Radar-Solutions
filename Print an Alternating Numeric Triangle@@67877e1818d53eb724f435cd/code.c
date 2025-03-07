@@ -8,6 +8,8 @@ int main(){
             if(i%2==0){
                 if(j%2!=0){
                     printf("0");
+                }else{
+                    printf("1");
                 }
             }else{
                 printf("1 ");
