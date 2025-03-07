@@ -1,14 +1,5 @@
 #include <stdio.h>
 
-int fibonacciSeries(int x) {
-    if (x == 0) {
-        return 0; 
-    }
-    if (x == 1) {
-        return 1; 
-    }    
-    return fibonacciSeries(x - 1) + fibonacciSeries(x - 2); 
-}
 
 int main() {
     int n;
@@ -20,4 +11,14 @@ int main() {
     printf("\n");  
 
     return 0;
+}
+
+int fibonacciSeries(int x) {
+    if (x == 0) {
+        return 0; 
+    }
+    if (x == 1) {
+        return 1; 
+    }    
+    return fibonacciSeries(x - 1) + fibonacciSeries(x - 2); 
 }
