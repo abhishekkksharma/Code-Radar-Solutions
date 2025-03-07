@@ -1,11 +1,12 @@
 #include <stdio.h>
+int fibonacci(int x);
 
 int main() {
     int n;
     scanf("%d", &n);
     
     for (int i = 0; i < n; i++) {
-        printf("%d ", fibonacci(i));
+        printf("%d ", fibonacci(i)); 
     }
     printf("\n");  
 
@@ -20,4 +21,3 @@ int fibonacci(int x) {
     }    
     return fibonacci(x - 1) + fibonacci(x - 2); 
 }
-
