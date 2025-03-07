@@ -18,10 +18,4 @@ void printPrimesInRange(int a, int b){
             printf("");
         }
     }
-    for(int i=a;i<=b;i++){
-        if(isPrime(i)==0){
-            printf("No prime numbers");
-            break;
-        }
-    }
 }
