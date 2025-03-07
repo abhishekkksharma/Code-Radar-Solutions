@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Function prototype for fibonacci
 int fibonacci(int x);
 
 int main() {
@@ -8,14 +7,13 @@ int main() {
     scanf("%d", &n);
     
     for (int i = 0; i < n; i++) {
-        printf("%d ", fibonacci(i));  // Call the fibonacci function
+        printf("%d ", fibonacci(i));  
     }
     printf("\n");  
 
     return 0;
 }
 
-// Function definition for fibonacci
 int fibonacci(int x) {
     if (x == 0) {
         return 0; 
