@@ -16,7 +16,6 @@ int main(){
                 x--;
             }
         }
-        }
         printf("\n");
     }
 }
