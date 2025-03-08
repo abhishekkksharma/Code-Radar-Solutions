@@ -21,7 +21,7 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",students[i].roll_num);
         getchar();
-        fgets(students[i].name, sizeof(students[i].name, stdin));
+        fgets(students[i].name, sizeof(students[i].name), stdin);
         scanf("%f",students[i].marks);
     }
     for(int i=0;i<n;i++){
