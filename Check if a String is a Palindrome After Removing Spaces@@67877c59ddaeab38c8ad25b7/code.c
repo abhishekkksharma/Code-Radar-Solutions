@@ -6,9 +6,7 @@ int main(){
     char newstr[100];
     fgets(str,sizeof(str),stdin);
     for(int i=0; i < strlen(str);i++){
-        if(str[i]==' '){
-            continue;
-        }else{
+        if(str[i]!=' '){
             newstr[i]=str[i];
         }
     }
