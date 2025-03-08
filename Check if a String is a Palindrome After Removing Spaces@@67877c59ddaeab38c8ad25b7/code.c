@@ -5,6 +5,9 @@ int main(){
     char str[100];
     char newstr[100];
     int j=0;
+    if(str==''){
+        printf("Yes");
+    }
     fgets(str,sizeof(str),stdin);
     for(int i=0; i < strlen(str);i++){
         if(str[i]!=' '){
@@ -18,7 +21,8 @@ int main(){
         if(newstr[start]==newstr[end]){
             printf("Yes");
             break;
-        }else{
+        }
+        else{
             printf("No");
             break;
         }
