@@ -11,10 +11,9 @@ int main() {
     for(int i=0;i<n;i++){
         if(marks[i]>max_marks){
             max_marks=marks[i];
-        }
-        printf("%f",max_marks);
-
-        
+        }    
     }
+    printf("%f",max_marks);
+
     return 0;
 }
