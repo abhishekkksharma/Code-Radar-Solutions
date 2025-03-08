@@ -11,7 +11,7 @@ int main(){
             newstr[j++]=str[i];
         }
     }
-    
+    newstr[j]='\0';
     int start=0;
     int end= strlen(newstr)-1;
     for(int i=start;i<end;i++){
