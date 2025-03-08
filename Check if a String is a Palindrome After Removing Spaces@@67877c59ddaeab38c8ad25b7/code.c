@@ -11,9 +11,6 @@ int main(){
             newstr[j++]=str[i];
         }
     }
-    if (newstr[strlen(newstr) - 1] == '\n') {
-        newstr[strlen(newstr) - 1] = '\0';
-    }
     
     int start=0;
     int end= strlen(newstr)-1;
