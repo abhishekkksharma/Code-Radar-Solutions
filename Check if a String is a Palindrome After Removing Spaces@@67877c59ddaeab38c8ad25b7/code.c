@@ -17,8 +17,10 @@ int main(){
     for(int i=start;i<end;i++){
         if(newstr[start]==newstr[end]){
             printf("Yes");
+            break;
         }else{
             printf("No");
+            break;
         }
         start++;
         end--;
