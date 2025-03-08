@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 struct student{
     int roll_num;
     char name[50];
