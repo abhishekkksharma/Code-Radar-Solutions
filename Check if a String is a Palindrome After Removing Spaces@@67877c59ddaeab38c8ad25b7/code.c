@@ -14,7 +14,7 @@ int main(){
     }
     int start=0;
     int end= strlen(newstr);
-    for(int i=start;i<end;i++){
+    for(int i=start;i<=end;i++){
         if(newstr[start]==newstr[end]){
             printf("Yes");
             break;
