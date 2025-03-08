@@ -9,7 +9,7 @@ int main() {
     }
     int max_marks=0;
     for(int i=0;i<n;i++){
-        if(marks[i]>max_marks){
+        if(marks[i]>marks[i+1]){
             max_marks=marks[i];
         }    
     }
