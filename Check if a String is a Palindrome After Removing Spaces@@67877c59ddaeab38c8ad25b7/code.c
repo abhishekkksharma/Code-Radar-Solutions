@@ -13,8 +13,8 @@ int main(){
         }
     }
     int start=0;
-    int end= strlen(newstr);
-    for(int i=start;i<=end;i++){
+    int end= strlen(newstr)-1;
+    for(int i=start;i<end;i++){
         if(newstr[start]==newstr[end]){
             printf("Yes");
             break;
