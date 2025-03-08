@@ -6,7 +6,7 @@ int main(){
     char newstr[100];
     int j=0;
     fgets(str,sizeof(str),stdin);
-    if(str[0]==''){
+    if(str[1]==' '){
         printf("Yes");
     }
 
