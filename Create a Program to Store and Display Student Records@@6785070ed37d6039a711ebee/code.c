@@ -22,8 +22,7 @@ int main() {
     struct student students[n];
     for(int i=0;i<n;i++){
         scanf("%d",&students[i].roll_num);
-        getchar();
-        fgets(students[i].name, sizeof(students[i].name), stdin);
+        scanf("%s",students[i].name);
         scanf("%f",&students[i].marks);
     }
     for(int i=0;i<n;i++){
