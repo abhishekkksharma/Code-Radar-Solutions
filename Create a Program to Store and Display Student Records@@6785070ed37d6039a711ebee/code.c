@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+
 struct student{
     int roll_num;
     char name[50];
@@ -20,10 +21,10 @@ int main() {
     scanf("%d",&n);
     struct student students[n];
     for(int i=0;i<n;i++){
-        scanf("%d",students[i].roll_num);
+        scanf("%d",&students[i].roll_num);
         getchar();
         fgets(students[i].name, sizeof(students[i].name), stdin);
-        scanf("%f",students[i].marks);
+        scanf("%f",&students[i].marks);
     }
     for(int i=0;i<n;i++){
         printf("Roll number: %d, Name: %s, Marks: %f\n",students[i].roll_num,students[i].name,students[i].marks);
