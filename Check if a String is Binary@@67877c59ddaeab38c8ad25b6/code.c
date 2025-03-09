@@ -17,7 +17,7 @@ int main(){
     if(binarycheck(str)==0){
         printf("No");
     }
-    else{
+    else if (binarycheck(str)==1){
         printf("Yes");
     }
     return 0;
