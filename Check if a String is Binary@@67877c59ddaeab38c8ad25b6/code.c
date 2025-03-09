@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-int binarycheck(char a){
+int binarycheck(char a[100]){
     int n = strlen(a);
     for(int i=0;i<n;i++){
         if(str[i]>1){
