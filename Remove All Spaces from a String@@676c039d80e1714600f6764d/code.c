@@ -6,7 +6,7 @@ int main(){
     getchar();
     for(int i=0;i<strlen(str);i++){
         if(str[i]== ' '){
-            continue;
+            printf("");
         }else{
             printf("%c",str[i]);
         }
