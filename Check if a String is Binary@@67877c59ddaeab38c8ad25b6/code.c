@@ -10,6 +10,7 @@ int binarycheck(char a[100]){
             return 0;
         }
     }
+    return 1;
 }
 int main(){
     char str[100];
