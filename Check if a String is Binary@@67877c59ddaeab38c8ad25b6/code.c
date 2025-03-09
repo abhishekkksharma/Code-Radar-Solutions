@@ -20,7 +20,7 @@ int main(){
     }
     else if (binarycheck(str)==1){
         printf("Yes");
-    }else if(str==" "){
+    }else if(str==""){
         printf("Yes");
     }
     return 0;
