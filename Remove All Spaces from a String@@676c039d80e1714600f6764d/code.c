@@ -5,7 +5,9 @@ int main(){
     scanf("%s",str);
     getchar();
     for(int i=0;i<strlen(str);i++){
-        if(str[i] != '' || str[i]!=' '){
+        if(str[i]== ' '){
+            continue;
+        }else{
             printf("%c",str[i]);
         }
     }
