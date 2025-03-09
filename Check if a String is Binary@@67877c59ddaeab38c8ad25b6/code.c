@@ -6,6 +6,8 @@ int binarycheck(char a[100]){
     for(int i=1;i<n;i++){
         if(a[i]=='0' || a[i]=='1'){
             return 1;
+        }else if(a==' '){
+            return  1;
         }
     }
     return 0;
