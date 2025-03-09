@@ -8,8 +8,9 @@ int main(){
     for(int i=0;i<strlen(str);i++){
         if(str[i]=='a' || str[i]=='e' || str[i]=='i' || str[i]=='o' ||str[i]=='u'){
             str[i]=ch;
-            printf("%c",str[i]);
         }
     }
+    printf("%s",str);
+
 
 }
