@@ -14,7 +14,7 @@ int main() {
     for(int i=1;i<n;i++){
         if(marks[i]>max_marks){
             max_marks=marks[i];
-            i=x;
+            x++;
         }    
     }
 
