@@ -11,7 +11,7 @@ int main(){
         }
     }
     for(int i=0;i<strlen(str);i++){
-        printf("%c",str[i]);
+        printf("%s",str[i]);
     }
     return 0;
 
