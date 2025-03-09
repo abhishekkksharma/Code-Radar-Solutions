@@ -10,12 +10,15 @@ int main() {
         scanf("%d %s %f",&roll_num[i],name[i],&marks[i]);
     }
     float max_marks = marks[0];
+    int x=0;
     for(int i=1;i<n;i++){
         if(marks[i]>max_marks){
             max_marks=marks[i];
+            i=x;
         }    
     }
-    printf("%.2f",max_marks);
+
+    printf("Roll number: %d, Name: %s, Marks: %.2f\n",roll_num[x],name[x],max_marks);
 
 
     return 0;
