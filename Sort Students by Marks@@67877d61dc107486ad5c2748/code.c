@@ -16,6 +16,7 @@ int main() {
         }    
     }
     printf("%.2f",max_marks);
+    
 
     return 0;
 }
