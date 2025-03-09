@@ -10,16 +10,15 @@ int binarycheck(char a[100]){
             return 1;
         }
     }
-    return 1;
 }
 int main(){
     char str[100];
     scanf("%s",str);
     if(binarycheck(str)==0){
-        prrintf("No");
+        printf("No");
     }
     else{
-        prrintf("Yes");
+        printf("Yes");
     }
     return 0;
 
