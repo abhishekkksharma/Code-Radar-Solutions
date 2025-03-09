@@ -3,7 +3,7 @@
 
 int binarycheck(char a[100]){
     int n = strlen(a);
-    for(int i=1;i<=n;i++){
+    for(int i=1;i<n;i++){
         if(a[i]!=0 || a[i]!=1){
             return 0;
         }
