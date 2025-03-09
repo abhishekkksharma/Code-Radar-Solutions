@@ -4,13 +4,11 @@
 int binarycheck(char a[100]){
     int n = strlen(a);
     for(int i=1;i<n;i++){
-        if(a[i]=='0' || a[i]=='1'){
-            return 1;
-        }else if(a[i]>1){
+        if(a[i]!='0' && a[i]!='1'){
             return 0;
         }
     }
-    return 0;
+    return 1;
 }
 int main(){
     char str[100];
@@ -20,8 +18,8 @@ int main(){
     }
     else if (binarycheck(str)==1){
         printf("Yes");
-    }else if(str==""){
-        printf("Yes");
+    }else{
+        printf("No");
     }
     return 0;
 
