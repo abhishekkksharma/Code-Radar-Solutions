@@ -4,7 +4,7 @@ int main(){
     scanf("%d %d",&a,&b);
     int arr[a];
     int count=0;
-    for(int i=0;i<n;i++){
+    for(int i=0;i<a;i++){
         if(arr[i]==b){
             count++;
         }
