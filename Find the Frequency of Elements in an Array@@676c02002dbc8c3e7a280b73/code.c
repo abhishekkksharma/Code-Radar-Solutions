@@ -11,9 +11,14 @@ int main(){
         count[i] = 0;
     }    
     for(int i=0;i<n;i++){
+        if(count[i]!=0){
+            continue;
+        }
+        int freq = 1;
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
-                count[i]++;
+                freq++;
+                count[j] = 1;
                 printf("%d %d\n",arr[i],count);
             }
         }
