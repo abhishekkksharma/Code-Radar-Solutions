@@ -12,5 +12,5 @@ int main(){
             count++;
         }
     }
-    printf("%d",target);
+    printf("%d",count);
 }
