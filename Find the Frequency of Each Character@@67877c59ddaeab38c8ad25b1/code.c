@@ -7,7 +7,7 @@ int main(){
         for(int j=0;j<strlen(str);j++){
             if(str[i]==str[j]){
                 int x=0;
-                printf("%c: %d",str[i],x);
+                printf("%c: %d\n",str[i],x);
             }
         }
     }
