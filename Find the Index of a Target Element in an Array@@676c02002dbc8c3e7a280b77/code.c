@@ -1,4 +1,13 @@
 #include <stdio.h>
+int targetcheck(int n; int arr[];target){
+    for(int i=0;i<n;i++){
+        if(arr[i]==target){
+            return i;
+        }
+    }
+    return -1;
+
+}
 int main(){
     int n,target;
     scanf("%d",&n);
@@ -7,12 +16,6 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&target);
-    for(int i=0;i<n;i++){
-        if(arr[i]==target){
-            printf("%d",i);
-            break;
-        }
-    }
-
+    printf("%d",targetcheck(n,arr,target));
     return 0;
 }
