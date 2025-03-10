@@ -19,8 +19,8 @@ int main(){
             if(arr[i]==arr[j]){
                 freq++;
                 count[j] = 1;
-                printf("%d %d\n",arr[i],count);
             }
+            printf("%d %d\n",arr[i],count);
         }
     }
     return 0;
