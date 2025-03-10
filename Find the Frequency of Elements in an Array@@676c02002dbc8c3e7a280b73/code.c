@@ -14,7 +14,7 @@ int main(){
         if(count[i]!=0){
             continue;
         }
-        int freq = 1;
+        int freq = 0;
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
                 freq++;
