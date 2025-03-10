@@ -2,11 +2,12 @@
 #include <string.h>
 int main(){
     char str[100];
+    int x=0;
     scanf("%s",str);
     for(int i=0;i<strlen(str);i++){
         for(int j=0;j<strlen(str);j++){
             if(str[i]==str[j]){
-                int x=0;
+                x++;
                 printf("%c: %d\n",str[i],x);
             }
         }
