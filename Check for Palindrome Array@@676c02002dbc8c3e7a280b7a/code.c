@@ -13,8 +13,10 @@ int main() {
     for(int i=0;i<n;i++){
         if(arr[start]==arr[end]){
             printf("YES");
+            break;
         }else{
             printf("NO");
+            break;
         }
     }
     return 0;
