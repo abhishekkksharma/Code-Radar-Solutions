@@ -10,7 +10,6 @@ int main() {
     }
     int start=0;
     int end=n-1;
-    for(int i=0;i<n;i++){
         if(arr[start]==arr[end]){
             printf("YES");
             break;
@@ -18,6 +17,6 @@ int main() {
             printf("NO");
             break;
         }
-    }
+
     return 0;
 }
