@@ -8,8 +8,14 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int start=0;
+    int end=n-1;
     for(int i=0;i<n;i++){
+        if(arr[start]==arr[end]){
+            printf("YES");
+        }else{
+            printf("NO");
+        }
     }
-    printf("%s", welcome());
     return 0;
 }
