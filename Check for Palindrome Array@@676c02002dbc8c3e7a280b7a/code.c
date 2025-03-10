@@ -12,10 +12,8 @@ int main() {
     int end=n-1;
         if(arr[start]==arr[end]){
             printf("YES");
-            break;
         }else{
             printf("NO");
-            break;
         }
 
     return 0;
