@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int freq(int n,arr[]){
+int freq(int n,int arr[]){
     int max=0;
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
