@@ -13,7 +13,7 @@ int main(){
             printf("%d ",arr[i]);
         }
     }
-    while(count>0){
+    for(int i=0;i<count;i++){
         printf("0 ");
     }
     return 0;
