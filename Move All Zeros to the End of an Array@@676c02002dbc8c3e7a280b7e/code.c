@@ -14,7 +14,7 @@ int main(){
         }
     }
     while(count>0){
-        printf("0 ",);
+        printf("0 ");
     }
     return 0;
 }
