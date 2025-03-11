@@ -8,10 +8,11 @@ int main(){
     }
     scanf("%d",&target);
     for(int i=0;i<n;i++){
+        int max=0;
         if(arr[i]==max){
             continue;
         }else{
-            int max=0;
+            
         for(int j=i+1;j<n;j++){
             if(arr[i]+arr[j]==target){
                 printf("%d %d\n",arr[i],arr[j]);
