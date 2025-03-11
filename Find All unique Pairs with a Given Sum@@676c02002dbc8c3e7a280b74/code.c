@@ -11,6 +11,7 @@ int main(){
         for(int j=i+1;j<n;j++){
             if(arr[i]+arr[j]==target){
                 printf("%d %d\n",arr[i],arr[j]);
+                break;
             }
         }
     }
