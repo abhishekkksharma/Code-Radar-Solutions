@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int freq(int n,arr[],int target){
+int freq(int n,arr[]){
     int max=0;
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
@@ -9,7 +9,7 @@ int freq(int n,arr[],int target){
                     continue;
                 }else{
                     count++;
-                    max=count;
+                    max=arr[i];
                 }
             }
         }
@@ -24,6 +24,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    scanf("%d",&target);
+    printf("%d",freq(n,arr));
     return 0;
 }
