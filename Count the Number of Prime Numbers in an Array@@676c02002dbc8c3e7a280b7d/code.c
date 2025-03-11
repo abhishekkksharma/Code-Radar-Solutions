@@ -10,7 +10,7 @@ int main(){
     }
     int count=0;
     for(int i=2;i<sqrt(n);i++){
-        if(arr[i]!i==0){
+        if(arr[i]%i==0){
             count+=0;
         }else{
             count++;
