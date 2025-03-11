@@ -16,7 +16,7 @@ int main(){
             int max=-10;
             if(arr[i]+arr[j]==target && max!=arr[j]){
                 printf("%d %d\n",arr[i],arr[j]);
-                max=arr[j];
+                max=arr[i];
                 break;
             }
         }
