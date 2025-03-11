@@ -4,16 +4,11 @@ int freq(int n,int arr[]){
     int max=0, count=0;
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
-            if(max==0){
-                continue;
-            }else{
-                count++;
-                max=arr[i];
-            }
+            if(arr[i]==arr[j]);
+            return arr[i];
         }
-        }
-    return max;
-
+    }    
+    return 0;
 }
 int main(){
     int n;
