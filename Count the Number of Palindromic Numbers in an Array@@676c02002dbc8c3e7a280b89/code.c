@@ -1,6 +1,10 @@
 #include <stdio.h>
 
 int palindrome(int n) {
+    if (n < 0) {
+        return 0;
+    }
+
     int num = n, reversedNum = 0, remainder, originalNum;
     originalNum = n;
 
