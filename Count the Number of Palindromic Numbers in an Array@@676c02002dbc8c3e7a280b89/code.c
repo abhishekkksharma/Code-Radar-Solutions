@@ -1,5 +1,6 @@
 #include <stdio.h>
 int palindrome(int n){
+    int num;
     n = num;
     int reversedNum = 0, remainder, originalNum;;
     while(num!=0){
