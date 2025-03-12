@@ -1,8 +1,7 @@
 #include <stdio.h>
 int palindrome(int n){
-    int num;
+    int num, reversedNum = 0, remainder, originalNum;
     n = num;
-    int reversedNum = 0, remainder, originalNum;;
     while(num!=0){
         remainder=n%10;
         reversedNum= reversedNum*10 + remainder;
