@@ -15,9 +15,9 @@ int main() {
     }
 
     if (foundA) {
-        printf("No\n");
-    } else {
         printf("Yes\n");
+    } else {
+        printf("No\n");
     }
 
     return 0;
