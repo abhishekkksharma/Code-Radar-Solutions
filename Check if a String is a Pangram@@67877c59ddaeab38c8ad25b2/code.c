@@ -8,8 +8,7 @@ int main(){
         if(str[i]!='a');
         printf("Yes");
         break;
-    }
-else{
+    }else{
         printf("No");
     }
     return 0;
