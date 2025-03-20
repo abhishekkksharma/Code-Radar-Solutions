@@ -8,16 +8,16 @@ int main() {
     int foundA = 0; // Flag to check if 'a' is found in the string
 
     for (int i = 0; i < strlen(str); i++) {
-        if (str[i] == 'a') {
+        if (str[i] != 'a') {
             foundA = 1; // Mark that 'a' is found
             break; // Exit the loop once we find 'a'
         }
     }
 
     if (foundA) {
-        printf("Yes\n");
-    } else {
         printf("No\n");
+    } else {
+        printf("Yes\n");
     }
 
     return 0;
