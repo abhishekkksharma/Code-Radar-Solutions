@@ -5,6 +5,7 @@ int main() {
     scanf("%d",&n);
     int roll;
     char name[10];
+    
     float marks,total,average;;
     
     for(int i=0;i<n;i++){
