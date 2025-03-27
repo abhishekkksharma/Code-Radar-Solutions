@@ -3,6 +3,7 @@
 int secondlarget(int n,int arr[n]){
     if(n==1){
         return arr[0];
+        break;
     }
     else if(arr[n-1]<arr[n] ){
         return arr[n-1];
