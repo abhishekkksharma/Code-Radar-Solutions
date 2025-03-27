@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int secondlarget(int n,int arr[n]){
-    if(arr[n-2]<arr[n-1]){
+    if(n==1){
+        return arr[0];
+    }
+    else if(arr[n-2]<arr[n-1]){
         return arr[n-2];
     }
     return -1;
