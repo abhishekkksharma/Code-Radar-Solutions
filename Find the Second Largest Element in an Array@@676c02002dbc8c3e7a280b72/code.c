@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int secondlarget(int n,int arr[n]){
+    if(arr[n-1]<arr[n]){
+        return arr[n-1];
+    }
+    return -1;
+}
+int main(){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;++){
+        scanf("%d",&arr[i]);
+    }
+
+    return 0;
+}
