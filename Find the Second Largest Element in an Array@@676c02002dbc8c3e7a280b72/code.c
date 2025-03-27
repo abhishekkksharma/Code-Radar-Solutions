@@ -13,6 +13,7 @@ int main(){
     for(int i=0;i<n;++){
         scanf("%d",&arr[i]);
     }
+    printf("%d",secondlarget(n,arr));
 
     return 0;
 }
