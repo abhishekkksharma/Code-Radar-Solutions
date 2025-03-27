@@ -31,27 +31,27 @@ void printArray(int arr[], int n) {
     printf("\n");
 }
 
-int main() {
-    int n;
+// int main() {
+//     int n;
     
-    // Take input for the size of the array
-    scanf("%d", &n);
+//     // Take input for the size of the array
+//     scanf("%d", &n);
     
-    int arr[n];
+//     int arr[n];
 
-    // Take input for the array elements
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
-    }
+//     // Take input for the array elements
+//     for (int i = 0; i < n; i++) {
+//         scanf("%d", &arr[i]);
+//     }
 
-    // Display the original array
-    printArray(arr, n);
+//     // Display the original array
+//     printArray(arr, n);
 
-    // Perform bubble sort
-    bubbleSort(arr, n);
+//     // Perform bubble sort
+//     bubbleSort(arr, n);
 
-    // Display the sorted array
-    printArray(arr, n);
+//     // Display the sorted array
+//     printArray(arr, n);
 
-    return 0;
-}
+//     return 0;
+// }
