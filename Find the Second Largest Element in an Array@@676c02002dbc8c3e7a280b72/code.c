@@ -4,7 +4,7 @@ int secondlarget(int n,int arr[n]){
     if(n==1){
         return arr[0];
     }
-    else if(arr[n-1]<arr[n] && arr[n-1]!=arr[n] ){
+    else if(arr[n-1]<arr[n] ){
         return arr[n-1];
     }
     // return -1;
