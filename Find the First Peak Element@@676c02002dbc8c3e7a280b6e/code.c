@@ -3,12 +3,7 @@
 int main() {
     int n;
     scanf("%d", &n);
-    
-    if (n <= 0) {
-        return 1; // Exit if array size is 0 or negative
-    }
-
-    int arr[n]; 
+    int arr[n];
 
     for(int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
@@ -22,6 +17,6 @@ int main() {
         }
     }
 
-    printf("%d", max);  // Print only the maximum value
+    printf("%d", max);
     return 0;
 }
