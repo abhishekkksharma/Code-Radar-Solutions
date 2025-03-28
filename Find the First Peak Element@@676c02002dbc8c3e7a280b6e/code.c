@@ -1,4 +1,15 @@
 #include <stdio.h>
+int max(int n, int arr[n]){
+    int max = arr[0];
+
+    for(int i = 1; i < n; i++) {
+        if(arr[i] > max) {
+            max = arr[i];
+        }
+    }
+    return max;
+
+}
 
 int main() {
     int n;
@@ -9,14 +20,6 @@ int main() {
         scanf("%d", &arr[i]);
     }
 
-    int max = arr[0];
-
-    for(int i = 1; i < n; i++) {
-        if(arr[i] > max) {
-            max = arr[i];
-        }
-    }
-
-    printf("%d", max);
+    printf("%d", max(n,arr));
     return 0;
 }
