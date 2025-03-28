@@ -6,7 +6,7 @@ int max(int n, int arr[n]){
         if(arr[i] > max) {
             max = arr[i];
         }else{
-            return -1;
+            max= -1;
         }
     }
     return max;
