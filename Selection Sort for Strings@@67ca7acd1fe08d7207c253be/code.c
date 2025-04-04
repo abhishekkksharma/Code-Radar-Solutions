@@ -6,7 +6,6 @@ void selectionSort(char arr[][100], int n) {
                 minIndex = j;
             }
         }
-        // Swap strings
         char temp[100];
         strcpy(temp, arr[i]);
         strcpy(arr[i], arr[minIndex]);
