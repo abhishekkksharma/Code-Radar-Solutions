@@ -8,7 +8,6 @@ int main(){
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
-    k%n;
     for(int i=k;i>n;i++){
         printf("%d ",arr[i]);
     }
