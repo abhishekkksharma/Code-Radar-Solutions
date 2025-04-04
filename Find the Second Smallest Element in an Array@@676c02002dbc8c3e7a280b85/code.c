@@ -22,7 +22,7 @@ int main(){
     if(n > 1)
         printf("%d\n", arr[1]);
     else
-        printf("%d\n",arr[0]);
+        printf("-1");
 
     return 0;
 
