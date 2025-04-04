@@ -11,7 +11,7 @@ int main(){
     if(k>n){
         k=k%n;
     }
-    for(int i=k;i<=n;i++){
+    for(int i=k;i<n;i++){
         printf("%d ",arr[i]);
     }
     for(int i=1;i<k;i++){
