@@ -3,11 +3,11 @@ int max(int n, int arr[n]){
     int max = arr[0];
 
     for(int i = 1; i < n; i++) {
-        if(arr[i] > max) {
-            max = arr[i];
+        if(arr[i+1] >= 2*arr[i]) {
+            return arr[i+1];
         }
     }
-    return max;
+    return 0;
 
 }
 
