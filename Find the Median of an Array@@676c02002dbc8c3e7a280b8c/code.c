@@ -8,6 +8,12 @@ int main(){
     }
     int left=0, right=n-1;
     int mid=(left+right)/2;
-    printf("%d",(arr[mid]+arr[mid+1])/2);
+    if(n%2==0){
+        printf("%d",(arr[mid]+arr[mid+1])/2);
+    }
+    else{
+        printf("%d",arr[mid]);
+    }
+    
     return 0;
 }
