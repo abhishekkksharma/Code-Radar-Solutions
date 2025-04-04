@@ -7,7 +7,7 @@ int max(int n, int arr[n]){
             return arr[i+1];
         }
     }
-    return 0;
+    return -1;
 
 }
 
