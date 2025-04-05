@@ -7,7 +7,7 @@ void mindiff(int arr[],int n){
         for(int j=i-1;j<n;j++){
             int diff= arr[i]-arr[j];
             if (diff<0) diff = -diff;
-            if(diff < maxdiff){
+            if(diff < mindiff){
                 minDiff=diff;
                 pair1=arr[i];
                 pair2=arr[j];
