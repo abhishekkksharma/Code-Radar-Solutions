@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <string.h> 
+
 void bubblesort(int roll_num[], char name[][50], float marks[], int n){
     for(int i=0;i<n;i++){
         for(int j=0;j<n-i-1;j++){
