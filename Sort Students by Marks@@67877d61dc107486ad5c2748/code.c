@@ -1,5 +1,5 @@
 #include <stdio.h>
-void bubblesort(int roll_num[],char name[],int marks[]){
+void bubblesort(int roll_num[],char name[],int marks[],int n){
     for(int i=0;i<n;i++){
         for(int j=0;j<n-i-1;j++){
             if(marks[j]>marks[j+1]){
@@ -38,7 +38,7 @@ int main() {
             x++;
         }    
     }
-    bubblesort(roll_num,name,marks);
+    bubblesort(roll_num,name,marks,n);
     for(int i=0;i<n;i++){
         printf("Roll number: %d, Name: %s, Marks: %.2f\n",roll_num[i],name[i],marks[i]);
     }
