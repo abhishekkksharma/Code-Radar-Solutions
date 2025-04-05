@@ -8,7 +8,7 @@ int main() {
     int foundA = 0; // Flag to check if 'a' is found in the string
 
     for (int i = 0; i < strlen(str); i++) {
-        if (str[i] == 'a' || str[i] == 'z' || str[i]=='A' || str[i]=='t') {
+        if (str[i] == 'a' || str[i] == 'z' || str[i]=='A' ) {
             foundA = 1; // Mark that 'a' is found
             break; // Exit the loop once we find 'a'
         }
