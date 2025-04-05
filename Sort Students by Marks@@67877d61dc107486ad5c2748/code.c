@@ -33,8 +33,8 @@ int main() {
     }
     bubblesort(roll_num,name,marks,n);
 
-    for(int i = n - 1; i >= 0; i--){
-        printf("Roll number: %d, Name: %s, Marks: %.2f\n",roll_num[i],name[i],marks[i]);
+    for(int i = n ; i > 0; i--){
+        printf("Roll Number: %d, Name: %s, Marks: %.2f\n",roll_num[i],name[i],marks[i]);
     }
     
 
