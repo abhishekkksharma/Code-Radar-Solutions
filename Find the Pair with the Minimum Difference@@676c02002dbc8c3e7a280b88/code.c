@@ -28,7 +28,13 @@ void mindiff(int arr[],int n){
             }
         }
     }
-    printf("%d %d",pair1,pair2);
+    if(n<2){
+        printf("-1");
+    }else{
+        printf("%d %d",pair1,pair2);
+    }
+
+    
 }
 
 int main(){
