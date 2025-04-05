@@ -1,20 +1,19 @@
 #include <stdio.h>
-void bubblesort(int roll_num[],char name[],int marks[],int n){
+void bubblesort(int roll_num[],char name[],float marks[],int n){
     for(int i=0;i<n;i++){
         for(int j=0;j<n-i-1;j++){
             if(marks[j]>marks[j+1]){
-                int tempmarks;
-                char tempname[n][10];
-                int temproll;
-                tempmarks=marks[j];
+
+                float tempmarks=marks[j];
                 marks[j]=marks[j+1];
                 marks[j+1]=tempmarks;
 
-                tempname=name[j];
-                name[j]=name[j+1];
-                name[j+1]=tempname;
+                char tempname[50];
+                strcpy(tempname, name[j]);
+                strcpy(name[j], name[j+1]);
+                strcpy(name[j+1], tempname);
 
-                temproll=roll_num[j];
+                int temproll=roll_num[j];
                 roll_num[j]=roll_num[j+1];
                 roll_num[j+1]=temproll;
             }
