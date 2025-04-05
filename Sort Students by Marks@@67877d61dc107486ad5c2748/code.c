@@ -32,7 +32,7 @@ int main() {
         scanf("%d %s %f",&roll_num[i],name[i],&marks[i]);
     }
     bubblesort(roll_num,name,marks,n);
-    for(int i=1;i<n;i++){
+    for(int i=0;i<n;i++){
         printf("Roll number: %d, Name: %s, Marks: %.2f\n",roll_num[i],name[i],marks[i]);
     }
     
