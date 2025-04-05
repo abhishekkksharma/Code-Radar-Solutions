@@ -7,8 +7,8 @@ void bubbleSort(char arr[][100],int n){
             if(arr[j][0]>arr[j+1][0]){
             char tempname[100];
             strcpy(tempname,arr[j]);
-            strcpy(arr[j]=arr[j+1]);
-            strcpy(arr[j+1]=tempname);
+            strcpy(arr[j],arr[j+1]);
+            strcpy(arr[j+1],tempname);
         }
         }
     }
