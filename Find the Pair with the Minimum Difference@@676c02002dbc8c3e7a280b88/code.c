@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void mindiff(int arr[],int n){
-    int minimumDiff = 99999;
+    int minimumdiff = 99999;
     int pair1=0 , pair2=0;
     for(int i=0;i<n;i++){
         for(int j=i-1;j<n;j++){
