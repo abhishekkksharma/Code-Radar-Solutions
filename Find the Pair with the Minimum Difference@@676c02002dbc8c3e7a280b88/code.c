@@ -10,7 +10,7 @@ void mindiff(int arr[],int n){
                 diff = -diff;
             }
             if(diff < minimumdiff){
-                minDiff=diff;
+                minimumdiff=diff;
                 pair1=arr[i];
                 pair2=arr[j];
             }
