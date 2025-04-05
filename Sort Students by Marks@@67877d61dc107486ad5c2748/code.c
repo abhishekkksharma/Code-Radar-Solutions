@@ -4,7 +4,7 @@ void bubblesort(int roll_num[],char name[],int marks[],int n){
         for(int j=0;j<n-i-1;j++){
             if(marks[j]>marks[j+1]){
                 int tempmarks;
-                char tempname[10];
+                char tempname[n][10];
                 int temproll;
                 tempmarks=marks[j];
                 marks[j]=marks[j+1];
