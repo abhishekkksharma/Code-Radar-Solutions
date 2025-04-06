@@ -1,6 +1,6 @@
 #include <stdio.h>
 int maxfreq(int arr[],int n){
-    int maxcount=0, maxcountelement=0;
+    int maxcount=0, maxcountelement=arr[0];
     for(int i=0;i<n;i++){
         for(int j=i;j<n;j++){
             int count=0;
