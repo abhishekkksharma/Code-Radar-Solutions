@@ -11,7 +11,6 @@ int maxfreq(int arr[],int n){
                 maxcount=count;
                 maxcountelement=arr[i];
             }
-            else if(count<=maxcount) break;
         }
     }
     return maxcountelement;
