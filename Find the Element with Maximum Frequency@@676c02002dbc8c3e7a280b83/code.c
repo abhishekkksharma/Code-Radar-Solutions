@@ -1,28 +1,35 @@
 #include <stdio.h>
-int maxfreq(int arr[],int n){
-    int maxcount=0, maxcountelement=arr[0];
-    for(int i=0;i<n;i++){
-        for(int j=j;j<n;j++){
-            int count=0;
-            if(arr[j]==arr[i]){
-                count++;
-            }
-            if((count>maxcount) ){
-                maxcount=count;
-                maxcountelement=arr[i];
-            }
+int m(int arr[],int n)
+{
+    int mf=0,me=arr[0];
+    for(int i=0;i<n;i++)
+    {
+        int count=0;
+        for(int j=0;j<n;j++)
+        {
+        if(arr[i]==arr[j])
+        {
+            count++;
         }
+        }
+    if(count>mf)
+    {
+        mf=count;
+        me=arr[i];
     }
-    return maxcountelement;
+    }
+    return me;
 }
-int main(){
+int main()
+{
     int n;
     scanf("%d",&n);
     int arr[n];
-    for(int i=0;i<n;i++){
+    for(int i=0;i<n;i++)
+    {
         scanf("%d",&arr[i]);
     }
-    printf("%d",maxfreq(arr,n));
+    int r=m(arr,n);
+    printf("%d\n",r);
     return 0;
-
 }
