@@ -11,8 +11,15 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    // for(int i=0;i<n;i++){
+    //     printf("%d ",runningsum([arr[i],i]));
+    // }
     for(int i=0;i<n;i++){
-        printf("%d ",runningsum([arr[i],i]));
+        for(int j=i;j<n;j++){
+            int sum=0;
+            sum+=arr[j];
+            printf("%d ",sum);
+        }
     }
     return 0;
 }
