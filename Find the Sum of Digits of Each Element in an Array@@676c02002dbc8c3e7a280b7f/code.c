@@ -13,7 +13,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        printf("%d ",sumOfDigits(arr[i]));
+        int result=sumOfDigits(arr[i]);
+        if(result<0) result = -result;
+        printf("%d ",result);
     }
     return 0;
 }
