@@ -1,4 +1,5 @@
 #include <stdio.h>
+int convert
 int bubblesort(int arr[],int n){
     for(int i=0 ;i<n;i++){
         for(int j=0;j<n-i-1;j++){
@@ -17,7 +18,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    bubblesort(arr,n);
+    // bubblesort(arr,n);
     int result= arr[n-1]*arr[n-2];
     if(result<0) result=-result;
     printf("%d",result);
