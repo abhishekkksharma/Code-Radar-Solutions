@@ -1,23 +1,31 @@
 #include <stdio.h>
-int greatestelement(int arr[],int n){
-    for(int i=0;i<n;i++){
-        for(int j=i;j<n;j++){
-            if(arr[j]>arr[i]){
-                return arr[i];
-            }
+
+void replaceWithGreatestOnRight(int arr[], int n) {
+    int maxFromRight = -1;
+
+    for (int i = n - 1; i >= 0; i--) {
+        int temp = arr[i];
+        arr[i] = maxFromRight;
+        if (temp > maxFromRight) {
+            maxFromRight = temp;
         }
     }
-    return -1;
 }
 
-int main(){
+int main() {
     int n;
-    scanf("%d",&n);
+    scanf("%d", &n);
     int arr[n];
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
+    
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &arr[i]);
     }
-    for(int i=0;i<n;i++){
-        printf("%d ",greatestelement(arr,n));
+
+    replaceWithGreatestOnRight(arr, n);
+
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
     }
+
+    return 0;
 }
