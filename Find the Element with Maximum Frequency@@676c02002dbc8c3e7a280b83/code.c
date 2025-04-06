@@ -8,11 +8,10 @@ int maxfreq(int arr[],int n){
                 count++;
             }
         }
-        if((count>maxcount) ){
-            maxcount=count;
-            maxcountelement=arr[i];
-        }
-
+            if((count>maxcount) ){
+                maxcount=count;
+                maxcountelement=arr[i];
+            }        
     }
     return maxcountelement;
 }
