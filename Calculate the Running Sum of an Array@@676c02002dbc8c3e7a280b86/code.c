@@ -15,7 +15,7 @@ int main(){
     //     printf("%d ",runningsum([arr[i],i]));
     // }
     for(int i=0;i<n;i++){
-        for(int j=i;j<n;j++){
+        for(int j=0;j<i;j++){
             int sum=0;
             sum+=arr[j];
             printf("%d ",sum);
