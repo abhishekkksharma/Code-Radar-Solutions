@@ -29,10 +29,6 @@ int main(){
     }
     bubblesort(arr,n);
     printf("%d",secondmin(arr,n));
-    // if(n > 1)
-    //     printf("%d\n", arr[1]);
-    // else
-    //     printf("-1");
 
     return 0;
 
