@@ -1,11 +1,23 @@
 #include <stdio.h>
 
-int secondlarget(int n,int arr[n]){
-    if(n<2){
-        return -1;
+void bubblesort(int arr[],int n){
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n-i-1;j++){
+            if(arr[j]>arr[j+1]){
+                int temp=arr[j];
+                arr[j]=arr{j+1};
+                arr[j+1]=temp;
+            }
+        }
     }
-    if(arr[n-1]<arr[n] ){
-        return arr[n-1];
+}
+int secondlarget(int arr[],int n){
+    for(int i=n-1;i>0;i--){
+        for(int j=i;j>0;j--){
+            if(arr[j]>arr[i]){
+                return arr[j];
+            }
+        }
     }
     return -1;
 }
@@ -17,7 +29,8 @@ int main(){
     for(int i=1;i<=n;i++){
         scanf("%d",&arr[i]);
     }
-    printf("%d",secondlarget(n,arr));
+    bubblesort(arr,n);
+    printf("%d",secondlarget(arr,n));
 
     return 0;
 }
