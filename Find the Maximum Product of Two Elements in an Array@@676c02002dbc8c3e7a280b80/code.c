@@ -1,5 +1,4 @@
 #include <stdio.h>
-int convert
 int bubblesort(int arr[],int n){
     for(int i=0 ;i<n;i++){
         for(int j=0;j<n-i-1;j++){
