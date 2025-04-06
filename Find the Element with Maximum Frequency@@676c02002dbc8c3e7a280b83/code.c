@@ -7,11 +7,12 @@ int maxfreq(int arr[],int n){
             if(arr[j]==arr[i]){
                 count++;
             }
-            if((count>maxcount) ){
-                maxcount=count;
-                maxcountelement=arr[i];
-            }
         }
+        if((count>maxcount) ){
+            maxcount=count;
+            maxcountelement=arr[i];
+        }
+
     }
     return maxcountelement;
 }
