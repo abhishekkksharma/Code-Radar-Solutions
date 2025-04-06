@@ -17,10 +17,7 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=0;j<i;j++){
             int sum=0;
-            for(int k=0;k<j;k++){
-                sum = sum + arr[k];
-            }
-            // sum+=arr[j];
+            sum+=arr[j];
             printf("%d ",sum);
         }
     }
