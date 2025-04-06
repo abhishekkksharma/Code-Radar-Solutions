@@ -9,7 +9,7 @@ int maxfreq(int arr[],int n){
             }
             if(count>maxcount){
                 maxcount=count;
-            arr[i]=maxcountelement;
+            maxcountelement=arr[i];
             }
         }
     }
