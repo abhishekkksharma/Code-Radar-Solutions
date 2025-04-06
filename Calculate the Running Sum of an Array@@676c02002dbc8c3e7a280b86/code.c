@@ -18,8 +18,9 @@ int main(){
         for(int j=0;j<i;j++){
             int sum=0;
             sum+=arr[j];
-            printf("%d ",sum);
         }
+        printf("%d ",sum);
+
     }
     return 0;
 }
