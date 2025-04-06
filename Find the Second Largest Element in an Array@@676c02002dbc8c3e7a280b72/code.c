@@ -14,7 +14,7 @@ void bubblesort(int arr[],int n){
 int secondlarget(int arr[],int n){
     for(int i=n-1;i>0;i--){
         for(int j=i;j>0;j--){
-            if(arr[j]<arr[i] && arr[j]!=arr[i]){
+            if(arr[j]<arr[i]){
                 return arr[j];
             }
         }
