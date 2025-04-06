@@ -1,9 +1,9 @@
 #include <stdio.h>
-int runningsum(int arr[],int n){
-    for(int 1=0;i<n;i++){
-        return arr[i]+ runningsum[i-1];
-    }
-}
+// int runningsum(int arr[],int n){
+//     for(int 1=0;i<n;i++){
+//         return arr[i]+ runningsum[i-1];
+//     }
+// }
 int main(){
     int n;
     scanf("%d",&n);
