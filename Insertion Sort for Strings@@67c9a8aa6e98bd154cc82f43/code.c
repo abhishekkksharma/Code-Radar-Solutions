@@ -13,6 +13,6 @@ void insertionSort(int arr[][100],int n){
 
 printArray(int arr[][100],int n){
     for(int i=0 ;i<n;i++){
-        prinf("%s",arr[i]);
+        printf("%s\n",arr[i]);
     }
 }
