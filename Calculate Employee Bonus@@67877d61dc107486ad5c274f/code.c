@@ -6,6 +6,7 @@ int main() {
     int id[n];
     char name[n][10];
     float sallary[n];
+    
     for(int i=0;i<n;i++){
         scanf("%d %s %f",&id[i],name[i],&sallary[i]);
     }
