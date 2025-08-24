@@ -8,6 +8,7 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%f %f",&len[i],&width[i]);
     }
+
     for(int i=0;i<n;i++){
         printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n",i+1,len[i]*width[i],2*(len[i]+width[i]));
     }
